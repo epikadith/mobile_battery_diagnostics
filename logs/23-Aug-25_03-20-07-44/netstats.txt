@@ -1,0 +1,1386 @@
+Directory:
+  /data/misc/apexdata/com.android.tethering/netstats
+Configs:
+  netstats_combine_subtype_enabled=false 
+  netstats_store_files_in_apexdata=true 
+  netstats_import_legacy_target_attempts=1 
+  platform legacy stats import attempts count=1 
+  platform legacy stats import successes count=1 
+  platform legacy stats import fallbacks count=0 
+  enable_network_stats_event_logger: true
+  netstats_fastdatainput_target_attempts=0 
+  FastDataInput successes=0 
+  FastDataInput fallbacks=0 
+  trafficstats.service.cache.isenabled=true 
+  trafficstats_cache_expiry_duration_ms=1000 
+  trafficstats_cache_max_entries=400 
+  trafficstats.client.cache.config=TrafficStatsRateLimitCacheConfig{isCacheEnabled: false, expiryDurationMs: 1000, maxEntries: 400} 
+Active interfaces:
+  iface=ccmni0 ident=[{type=0, ratType=20, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] 
+  iface=ccmni1 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+  iface=vt_data01 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+  iface=v4-ccmni1 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+Active UID interfaces:
+  iface=ccmni0 ident=[{type=0, ratType=20, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] 
+  iface=ccmni1 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+  iface=vt_data01 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+  iface=v4-ccmni1 ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] 
+All wifi interfaces:
+  wlan0 
+All mobile interfaces:
+  ccmni0 ccmni1 ccmni2 v4-ccmni0 v4-ccmni1 v4-ccmni2 
+Top openSession callers:
+  {uid=1000,package=android}=86046
+  {uid=10120,package=com.android.systemui}=9862
+  {uid=10140,package=com.google.android.gms}=7316
+  {uid=10431,package=com.microsoft.appmanager}=1496
+  {uid=1000,package=null}=796
+  {uid=10145,package=com.android.vending}=125
+  {uid=10196,package=com.linkedin.android}=60
+  {uid=1073,package=com.google.android.networkstack.tethering}=33
+  {uid=10208,package=com.google.android.apps.messaging}=30
+  {uid=1000,package=com.android.settings}=13
+
+Poll counts per reason:
+  DUMPSYS: 0
+  FORCE_UPDATE: 5436
+  GLOBAL_ALERT: 9938
+  NETWORK_STATUS_CHANGED: 708
+  OPEN_SESSION: 3541
+  PERIODIC: 730
+  RAT_CHANGED: 2197
+  REG_CALLBACK: 299
+  REMOVE_UIDS: 8
+  UPSTREAM_CHANGED: 23
+
+Recent poll events:
+  2025-08-23T03:14:44.699953 - Poll(flags=3, PollEvent{reason=OPEN_SESSION})
+  2025-08-23T03:14:36.733700 - Poll(flags=3, PollEvent{reason=PERIODIC})
+  2025-08-23T03:14:03.558933 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:56:24.850765 - Poll(flags=3, PollEvent{reason=OPEN_SESSION})
+  2025-08-23T02:50:15.930086 - Poll(flags=3, PollEvent{reason=PERIODIC})
+  2025-08-23T02:45:10.389045 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:52.601309 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:49.674020 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:42.684006 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:39.872433 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:02.901657 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:44:00.879742 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:54.475924 - Poll(flags=3, PollEvent{reason=OPEN_SESSION})
+  2025-08-23T02:43:51.275443 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:42.420820 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:32.833180 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:31.037817 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:26.568434 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:25.094317 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:23.292584 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:18.848554 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:17.141649 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:14.112191 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:06.904911 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:43:01.608587 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:34.311989 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:32.731132 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:12.929643 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:09.552901 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:06.411380 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:42:01.657244 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:41:26.871984 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:40:18.068101 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:38:20.725999 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:57.108340 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:37.472655 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:22.372463 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:21.090198 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:17.714029 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:37:12.048979 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:36:20.003315 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:35:23.446747 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:34:53.887501 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:34:29.375501 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:34:09.777051 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:33:58.631962 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:33:58.474037 - Poll(flags=1, PollEvent{reason=RAT_CHANGED})
+  2025-08-23T02:33:35.348380 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:33:15.453704 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+  2025-08-23T02:32:50.872828 - Poll(flags=1, PollEvent{reason=GLOBAL_ALERT})
+
+Stats Providers:
+  OffloadController Xt:
+    NetworkStats: elapsedRealtime=0
+  BpfCoordinator Xt:
+    NetworkStats: elapsedRealtime=0
+      [0] iface=ccmni2 uid=-1 set=DEFAULT tag=0x0 metered=NO roaming=NO defaultNetwork=NO rxBytes=15237139 rxPackets=21945 txBytes=1037456420 txPackets=797435 operations=0
+      [1] iface=ccmni1 uid=-1 set=DEFAULT tag=0x0 metered=NO roaming=NO defaultNetwork=NO rxBytes=1198292 rxPackets=2538 txBytes=2198980 txPackets=4176 operations=0
+      [2] iface=ccmni0 uid=-1 set=DEFAULT tag=0x0 metered=NO roaming=NO defaultNetwork=NO rxBytes=3689962 rxPackets=7665 txBytes=2920865 txPackets=6463 operations=0
+  ImsPhoneCallTracker Xt:
+    NetworkStats: elapsedRealtime=0
+  ImsPhoneCallTracker Xt:
+    NetworkStats: elapsedRealtime=0
+  MobileDataUsage0 Xt:
+    NetworkStats: elapsedRealtime=0
+  MobileDataUsage1 Xt:
+    NetworkStats: elapsedRealtime=0
+
+Stats Observers:
+  RequestInfo from pid/uid:1809/1000(android) for DataUsageRequest [ requestId=1, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[], matchWifiNetworkKeys=[], thresholdInBytes=0 ] accessLevel:3
+  RequestInfo from pid/uid:1809/1000(android) for DataUsageRequest [ requestId=2, networkTemplate=NetworkTemplate: matchRule=WIFI, matchSubscriberIds=[], matchWifiNetworkKeys=[], thresholdInBytes=0 ] accessLevel:3
+  RequestInfo from pid/uid:1809/1000(android) for DataUsageRequest [ requestId=299, networkTemplate=NetworkTemplate: matchRule=MOBILE, matchSubscriberIds=[405861...], matchWifiNetworkKeys=[], metered=YES, defaultNetwork=NO, thresholdInBytes=5363700 ] accessLevel:3
+
+Dev stats:
+  Pending bytes: 
+  History since boot:
+Xt stats:
+  Pending bytes: 1535506
+  History since boot:
+  ident=[{type=0, ratType=-2, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754661600 rb=281 rp=3 tb=425 tp=3 op=0
+      st=1754841600 rb=184 rp=2 tb=280 tp=2 op=0
+      st=1754845200 rb=399 rp=4 tb=591 tp=4 op=0
+      st=1754877600 rb=67 rp=1 tb=115 tp=1 op=0
+      st=1754895600 rb=291 rp=3 tb=435 tp=3 op=0
+      st=1755082800 rb=276 rp=3 tb=420 tp=3 op=0
+      st=1755273600 rb=368 rp=4 tb=0 tp=0 op=0
+      st=1755360000 rb=404 rp=4 tb=596 tp=4 op=0
+      st=1755507600 rb=186 rp=2 tb=0 tp=0 op=0
+      st=1755662400 rb=108 rp=1 tb=0 tp=0 op=0
+      st=1755763200 rb=873 rp=9 tb=0 tp=0 op=0
+  ident=[{type=0, ratType=-2, subscriberId=405861..., metered=true, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754812800 rb=0 rp=0 tb=97 tp=1 op=0
+      st=1755018000 rb=6597 rp=46 tb=2760 tp=46 op=0
+      st=1755039600 rb=135 rp=1 tb=79 tp=1 op=0
+      st=1755064800 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755237600 rb=142 rp=1 tb=60 tp=1 op=0
+      st=1755399600 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1755417600 rb=143 rp=1 tb=60 tp=1 op=0
+      st=1755496800 rb=14752 rp=140 tb=8340 tp=139 op=0
+      st=1755500400 rb=142 rp=1 tb=60 tp=1 op=0
+      st=1755658800 rb=12615 rp=87 tb=5220 tp=87 op=0
+      st=1755763200 rb=1460 rp=11 tb=600 tp=10 op=0
+      st=1755766800 rb=0 rp=0 tb=370 tp=4 op=0
+      st=1755770400 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755774000 rb=1575 rp=14 tb=840 tp=14 op=0
+      st=1755864000 rb=2677 rp=3 tb=2833 tp=5 op=0
+  ident=[{type=0, ratType=-2, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754636400 rb=278764 rp=362 tb=65282 tp=304 op=0
+      st=1754640000 rb=35232 rp=157 tb=22342 tp=160 op=0
+      st=1754643600 rb=69088 rp=216 tb=33504 tp=172 op=0
+      st=1754658000 rb=281183 rp=775 tb=327565 tp=880 op=0
+      st=1754661600 rb=134832 rp=317 tb=95591 tp=318 op=0
+      st=1754665200 rb=494346 rp=729 tb=136476 tp=560 op=0
+      st=1754708400 rb=1625441 rp=1472 tb=107442 tp=465 op=0
+      st=1754719200 rb=811131 rp=853 tb=174704 tp=428 op=0
+      st=1754730000 rb=6506 rp=44 tb=8800 tp=50 op=0
+      st=1754744400 rb=39008 rp=130 tb=44479 tp=132 op=0
+      st=1754748000 rb=50436 rp=180 tb=42007 tp=183 op=0
+      st=1754751600 rb=121697 rp=246 tb=83073 tp=229 op=0
+      st=1754755200 rb=461310 rp=749 tb=128241 tp=696 op=0
+      st=1754758800 rb=6446319 rp=6755 tb=1091350 tp=3877 op=0
+      st=1754766000 rb=7844039 rp=6444 tb=475767 tp=3750 op=0
+      st=1754769600 rb=426934 rp=976 tb=138662 tp=858 op=0
+      st=1754791200 rb=1246156 rp=1599 tb=368712 tp=1074 op=0
+      st=1754794800 rb=2210 rp=16 tb=3075 tp=23 op=0
+      st=1754798400 rb=1089971 rp=1229 tb=172499 tp=791 op=0
+      st=1754805600 rb=20155 rp=41 tb=10887 tp=38 op=0
+      st=1754809200 rb=1060379 rp=1619 tb=457715 tp=1358 op=0
+      st=1754812800 rb=35428 rp=105 tb=110643 tp=318 op=0
+      st=1754816400 rb=13797504 rp=13153 tb=1137178 tp=4496 op=0
+      st=1754827200 rb=3502476 rp=3107 tb=276329 tp=858 op=0
+      st=1754830800 rb=321671 rp=384 tb=59191 tp=254 op=0
+      st=1754834400 rb=11864 rp=35 tb=12277 tp=35 op=0
+      st=1754838000 rb=625659 rp=1158 tb=417790 tp=999 op=0
+      st=1754841600 rb=1483314 rp=1849 tb=303201 tp=1120 op=0
+      st=1754845200 rb=2842973 rp=2774 tb=348182 tp=1081 op=0
+      st=1754848800 rb=95534 rp=230 tb=40680 tp=223 op=0
+      st=1754870400 rb=855055 rp=1616 tb=483321 tp=1235 op=0
+      st=1754877600 rb=314379 rp=617 tb=221020 tp=528 op=0
+      st=1754881200 rb=3368192 rp=3578 tb=454886 tp=1624 op=0
+      st=1754884800 rb=2070294 rp=2337 tb=393160 tp=1319 op=0
+      st=1754888400 rb=1915223 rp=2799 tb=637422 tp=2284 op=0
+      st=1754895600 rb=6041298 rp=6153 tb=713307 tp=2484 op=0
+      st=1754899200 rb=2116578 rp=2330 tb=321165 tp=1374 op=0
+      st=1754902800 rb=114912 rp=245 tb=34317 tp=160 op=0
+      st=1754906400 rb=8833082 rp=7678 tb=375723 tp=1684 op=0
+      st=1754910000 rb=604725 rp=1191 tb=337018 tp=946 op=0
+      st=1754913600 rb=3681528 rp=3649 tb=355757 tp=1414 op=0
+      st=1754917200 rb=12444205 rp=10646 tb=585961 tp=2322 op=0
+      st=1754924400 rb=508362 rp=840 tb=305352 tp=685 op=0
+      st=1754928000 rb=53844 rp=133 tb=48795 tp=118 op=0
+      st=1754931600 rb=287367 rp=632 tb=160745 tp=543 op=0
+      st=1754935200 rb=5936751 rp=5257 tb=239135 tp=1186 op=0
+      st=1754964000 rb=785067 rp=821 tb=152906 tp=532 op=0
+      st=1754971200 rb=8144945 rp=6949 tb=348918 tp=1237 op=0
+      st=1754978400 rb=94885 rp=309 tb=134263 tp=245 op=0
+      st=1754982000 rb=299850 rp=455 tb=113104 tp=327 op=0
+      st=1754985600 rb=213528 rp=562 tb=195613 tp=547 op=0
+      st=1754989200 rb=1025315 rp=1724 tb=591091 tp=1478 op=0
+      st=1754996400 rb=298043 rp=439 tb=75543 tp=309 op=0
+      st=1755000000 rb=3839366 rp=3934 tb=531163 tp=2391 op=0
+      st=1755003600 rb=31357 rp=82 tb=45406 tp=118 op=0
+      st=1755010800 rb=7049 rp=24 tb=7211 tp=24 op=0
+      st=1755014400 rb=637480 rp=2761 tb=1407986 tp=3092 op=0
+      st=1755018000 rb=3590383 rp=5401 tb=709010 tp=3187 op=0
+      st=1755021600 rb=3897800 rp=4636 tb=757432 tp=3825 op=0
+      st=1755039600 rb=219043 rp=519 tb=135875 tp=543 op=0
+      st=1755043200 rb=1381728 rp=1585 tb=244069 tp=1042 op=0
+      st=1755064800 rb=3894091 rp=4376 tb=767307 tp=3539 op=0
+      st=1755082800 rb=945706 rp=1141 tb=213233 tp=958 op=0
+      st=1755090000 rb=246539 rp=500 tb=172664 tp=500 op=0
+      st=1755158400 rb=679637 rp=974 tb=196763 tp=962 op=0
+      st=1755176400 rb=22326 rp=80 tb=21827 tp=98 op=0
+      st=1755255600 rb=189544 rp=434 tb=202309 tp=429 op=0
+      st=1755259200 rb=91651 rp=243 tb=74498 tp=240 op=0
+      st=1755262800 rb=12500076 rp=9902 tb=308288 tp=3378 op=0
+      st=1755270000 rb=22469 rp=37 tb=4888 tp=32 op=0
+      st=1755273600 rb=3331709 rp=3215 tb=325260 tp=1352 op=0
+      st=1755280800 rb=858443 rp=1260 tb=370736 tp=1068 op=0
+      st=1755338400 rb=123763 rp=213 tb=54789 tp=168 op=0
+      st=1755342000 rb=34295 rp=104 tb=22124 tp=72 op=0
+      st=1755360000 rb=466759 rp=845 tb=264836 tp=779 op=0
+      st=1755363600 rb=112092 rp=209 tb=57413 tp=182 op=0
+      st=1755367200 rb=137432 rp=341 tb=96094 tp=389 op=0
+      st=1755399600 rb=739001 rp=1190 tb=346034 tp=1156 op=0
+      st=1755439200 rb=1315627 rp=1320 tb=154110 tp=964 op=0
+      st=1755442800 rb=123476 rp=288 tb=93759 tp=277 op=0
+      st=1755446400 rb=162400 rp=318 tb=94912 tp=333 op=0
+      st=1755489600 rb=94167 rp=217 tb=47710 tp=203 op=0
+      st=1755493200 rb=6668 rp=43 tb=8066 tp=49 op=0
+      st=1755496800 rb=21358 rp=47 tb=16034 tp=53 op=0
+      st=1755500400 rb=7666 rp=34 tb=7709 tp=25 op=0
+      st=1755507600 rb=9100494 rp=8310 tb=1321569 tp=4038 op=0
+      st=1755514800 rb=47394 rp=120 tb=49410 tp=122 op=0
+      st=1755576000 rb=625567 rp=643 tb=96903 tp=328 op=0
+      st=1755583200 rb=460576 rp=932 tb=322509 tp=951 op=0
+      st=1755597600 rb=278664 rp=371 tb=58474 tp=318 op=0
+      st=1755601200 rb=42882 rp=110 tb=37181 tp=111 op=0
+      st=1755604800 rb=7042950 rp=5809 tb=454099 tp=3010 op=0
+      st=1755612000 rb=80122 rp=184 tb=58704 tp=223 op=0
+      st=1755622800 rb=379311 rp=368 tb=16991 tp=78 op=0
+      st=1755658800 rb=2746210 rp=2973 tb=400493 tp=1690 op=0
+      st=1755662400 rb=1156426 rp=979 tb=54264 tp=114 op=0
+      st=1755666000 rb=234350 rp=756 tb=227893 tp=873 op=0
+      st=1755669600 rb=121126 rp=245 tb=91190 tp=220 op=0
+      st=1755673200 rb=86169 rp=179 tb=68831 tp=137 op=0
+      st=1755676800 rb=11981785 rp=10878 tb=583003 tp=3416 op=0
+      st=1755680400 rb=1647981 rp=1514 tb=160919 tp=443 op=0
+      st=1755684000 rb=2912715 rp=3876 tb=1119351 tp=2723 op=0
+      st=1755698400 rb=106914 rp=338 tb=88891 tp=397 op=0
+      st=1755702000 rb=4348689 rp=3842 tb=207836 tp=707 op=0
+      st=1755752400 rb=18848 rp=52 tb=21625 tp=50 op=0
+      st=1755759600 rb=1214546 rp=1276 tb=138015 tp=464 op=0
+      st=1755763200 rb=867457 rp=1462 tb=236396 tp=947 op=0
+      st=1755766800 rb=1062792 rp=1642 tb=307534 tp=1141 op=0
+      st=1755770400 rb=1178201 rp=1913 tb=517423 tp=1570 op=0
+      st=1755774000 rb=2286449 rp=2709 tb=508854 tp=2021 op=0
+      st=1755777600 rb=1543635 rp=1583 tb=262268 tp=712 op=0
+      st=1755781200 rb=41126 rp=120 tb=101595 tp=262 op=0
+      st=1755784800 rb=611830 rp=1168 tb=547477 tp=1451 op=0
+      st=1755853200 rb=371054 rp=484 tb=80057 tp=354 op=0
+      st=1755864000 rb=1027519 rp=1980 tb=512500 tp=1660 op=0
+      st=1755867600 rb=500582 rp=1289 tb=736853 tp=2086 op=0
+      st=1755874800 rb=4201756 rp=3746 tb=269516 tp=946 op=0
+      st=1755885600 rb=1364209 rp=1513 tb=239547 tp=760 op=0
+      st=1755889200 rb=657463 rp=1137 tb=184417 tp=1036 op=0
+  ident=[{type=0, ratType=-2, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755018000 rb=0 rp=0 tb=1098656 tp=1249 op=0
+      st=1755763200 rb=0 rp=0 tb=35054 tp=146 op=0
+      st=1755766800 rb=509981 rp=519 tb=173451 tp=515 op=0
+      st=1755770400 rb=425126 rp=752 tb=359634 tp=614 op=0
+  ident=[{type=0, ratType=0, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755345600 rb=0 rp=0 tb=48 tp=1 op=0
+      st=1755680400 rb=96 rp=1 tb=48 tp=1 op=0
+  ident=[{type=0, ratType=13, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754661600 rb=194 rp=2 tb=290 tp=2 op=0
+      st=1754719200 rb=67 rp=1 tb=0 tp=0 op=0
+      st=1754748000 rb=828 rp=9 tb=0 tp=0 op=0
+      st=1754758800 rb=96 rp=1 tb=48 tp=1 op=0
+      st=1754791200 rb=168 rp=2 tb=1877 tp=24 op=0
+      st=1754794800 rb=67 rp=1 tb=115 tp=1 op=0
+      st=1754812800 rb=952 rp=12 tb=0 tp=0 op=0
+      st=1754816400 rb=739 rp=8 tb=1123 tp=8 op=0
+      st=1754830800 rb=92 rp=1 tb=140 tp=1 op=0
+      st=1754834400 rb=67 rp=1 tb=115 tp=1 op=0
+      st=1754838000 rb=439 rp=5 tb=679 tp=5 op=0
+      st=1754841600 rb=276 rp=3 tb=420 tp=3 op=0
+      st=1754888400 rb=67 rp=1 tb=115 tp=1 op=0
+      st=1754928000 rb=343 rp=4 tb=535 tp=4 op=0
+      st=1755003600 rb=24287 rp=36 tb=0 tp=0 op=0
+      st=1755007200 rb=26915 rp=67 tb=0 tp=0 op=0
+      st=1755032400 rb=96 rp=1 tb=48 tp=1 op=0
+      st=1755259200 rb=67 rp=1 tb=0 tp=0 op=0
+      st=1755342000 rb=194 rp=2 tb=0 tp=0 op=0
+      st=1755367200 rb=172 rp=1 tb=220 tp=1 op=0
+      st=1755500400 rb=279 rp=3 tb=0 tp=0 op=0
+      st=1755507600 rb=276 rp=3 tb=0 tp=0 op=0
+      st=1755597600 rb=184 rp=2 tb=280 tp=2 op=0
+      st=1755604800 rb=67 rp=1 tb=115 tp=1 op=0
+      st=1755666000 rb=328 rp=4 tb=520 tp=4 op=0
+      st=1755698400 rb=67 rp=1 tb=115 tp=1 op=0
+  ident=[{type=0, ratType=13, subscriberId=405861..., metered=true, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754758800 rb=0 rp=0 tb=1092 tp=12 op=0
+      st=1754762400 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1754787600 rb=0 rp=0 tb=79 tp=1 op=0
+      st=1754812800 rb=0 rp=0 tb=2087 tp=23 op=0
+      st=1754816400 rb=0 rp=0 tb=176 tp=2 op=0
+      st=1754866800 rb=135 rp=1 tb=352 tp=4 op=0
+      st=1754978400 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1755000000 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1755007200 rb=0 rp=0 tb=995 tp=11 op=0
+      st=1755018000 rb=1287 rp=9 tb=480 tp=8 op=0
+      st=1755021600 rb=135 rp=1 tb=546 tp=6 op=0
+      st=1755180000 rb=34100 rp=184 tb=19536 tp=277 op=0
+      st=1755417600 rb=1609 rp=13 tb=780 tp=13 op=0
+      st=1755496800 rb=4648 rp=40 tb=2400 tp=40 op=0
+      st=1755500400 rb=284 rp=2 tb=120 tp=2 op=0
+      st=1755579600 rb=135 rp=1 tb=354 tp=4 op=0
+      st=1755658800 rb=22440 rp=159 tb=9540 tp=159 op=0
+      st=1755763200 rb=21331 rp=115 tb=18313 tp=116 op=0
+      st=1755774000 rb=10399 rp=100 tb=14936 tp=191 op=0
+      st=1755860400 rb=0 rp=0 tb=1640 tp=5 op=0
+      st=1755864000 rb=1098 rp=9 tb=540 tp=9 op=0
+      st=1755867600 rb=96 rp=1 tb=512 tp=6 op=0
+  ident=[{type=0, ratType=13, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754640000 rb=115131 rp=378 tb=143177 tp=404 op=0
+      st=1754643600 rb=1088765 rp=2793 tb=752668 tp=2644 op=0
+      st=1754647200 rb=2113105 rp=4580 tb=1034835 tp=4319 op=0
+      st=1754650800 rb=2593636 rp=5564 tb=1286665 tp=5290 op=0
+      st=1754654400 rb=426866 rp=871 tb=245865 tp=759 op=0
+      st=1754658000 rb=873926 rp=1368 tb=401601 tp=1189 op=0
+      st=1754661600 rb=91842 rp=215 tb=83632 tp=198 op=0
+      st=1754665200 rb=11579 rp=41 tb=12683 tp=40 op=0
+      st=1754719200 rb=137727 rp=407 tb=117861 tp=388 op=0
+      st=1754730000 rb=52636 rp=102 tb=24904 tp=100 op=0
+      st=1754744400 rb=61628 rp=119 tb=24893 tp=128 op=0
+      st=1754748000 rb=402143 rp=1149 tb=290348 tp=1069 op=0
+      st=1754751600 rb=28635 rp=130 tb=24486 tp=126 op=0
+      st=1754755200 rb=1723809 rp=3725 tb=724629 tp=3799 op=0
+      st=1754758800 rb=6906673 rp=8935 tb=1444403 tp=6542 op=0
+      st=1754762400 rb=47134968 rp=37547 tb=1673195 tp=14627 op=0
+      st=1754766000 rb=20934470 rp=16280 tb=983624 tp=8993 op=0
+      st=1754769600 rb=2991729 rp=3216 tb=306661 tp=1859 op=0
+      st=1754773200 rb=2273718 rp=3536 tb=562979 tp=2987 op=0
+      st=1754787600 rb=439961 rp=911 tb=196904 tp=815 op=0
+      st=1754791200 rb=28424513 rp=27946 tb=3561377 tp=10634 op=0
+      st=1754794800 rb=35915879 rp=34643 tb=3369839 tp=11226 op=0
+      st=1754798400 rb=555364 rp=1156 tb=308449 tp=1036 op=0
+      st=1754802000 rb=2371756 rp=4962 tb=1641883 tp=4601 op=0
+      st=1754805600 rb=921614 rp=1858 tb=460393 tp=1704 op=0
+      st=1754809200 rb=32639456 rp=28517 tb=1941715 tp=9019 op=0
+      st=1754812800 rb=22807253 rp=29804 tb=6840011 tp=26896 op=0
+      st=1754816400 rb=70028139 rp=63092 tb=5086815 tp=15503 op=0
+      st=1754820000 rb=877778 rp=1875 tb=529705 tp=2028 op=0
+      st=1754823600 rb=1349619 rp=3110 tb=882772 tp=2964 op=0
+      st=1754827200 rb=28150868 rp=28547 tb=2830359 tp=11964 op=0
+      st=1754830800 rb=243937889 rp=188295 tb=9386175 tp=41284 op=0
+      st=1754834400 rb=79337178 rp=68195 tb=5520195 tp=22019 op=0
+      st=1754838000 rb=10027922 rp=12526 tb=2476170 tp=8365 op=0
+      st=1754841600 rb=17352060 rp=17579 tb=1988234 tp=7364 op=0
+      st=1754845200 rb=754140 rp=1374 tb=360691 tp=1334 op=0
+      st=1754848800 rb=3053365 rp=5606 tb=1522726 tp=5655 op=0
+      st=1754852400 rb=4901589 rp=6716 tb=1465144 tp=4800 op=0
+      st=1754856000 rb=678037 rp=1402 tb=393673 tp=1485 op=0
+      st=1754859600 rb=600274 rp=1123 tb=313983 tp=1046 op=0
+      st=1754866800 rb=1026344 rp=2229 tb=613854 tp=2153 op=0
+      st=1754870400 rb=21377557 rp=20160 tb=1388661 tp=7027 op=0
+      st=1754874000 rb=145812 rp=448 tb=119524 tp=404 op=0
+      st=1754877600 rb=387916 rp=880 tb=181668 tp=778 op=0
+      st=1754881200 rb=46602933 rp=47287 tb=5806069 tp=20540 op=0
+      st=1754884800 rb=544589 rp=740 tb=86084 tp=442 op=0
+      st=1754888400 rb=940216 rp=2103 tb=595319 tp=1882 op=0
+      st=1754892000 rb=4158971 rp=4766 tb=418786 tp=2751 op=0
+      st=1754895600 rb=33351911 rp=30312 tb=1943397 tp=7299 op=0
+      st=1754899200 rb=127428642 rp=108216 tb=4971625 tp=24349 op=0
+      st=1754902800 rb=19841449 rp=21997 tb=3548124 tp=12390 op=0
+      st=1754906400 rb=55855332 rp=51535 tb=3595367 tp=13271 op=0
+      st=1754910000 rb=7402230 rp=10860 tb=2458678 tp=8173 op=0
+      st=1754913600 rb=1575460 rp=3438 tb=663208 tp=3050 op=0
+      st=1754917200 rb=18254686 rp=16692 tb=1277813 tp=4921 op=0
+      st=1754920800 rb=56317915 rp=50715 tb=3667870 tp=14929 op=0
+      st=1754924400 rb=5325321 rp=6761 tb=1277901 tp=4805 op=0
+      st=1754928000 rb=10996662 rp=11950 tb=1493156 tp=6089 op=0
+      st=1754931600 rb=13074340 rp=16969 tb=2886159 tp=11393 op=0
+      st=1754935200 rb=57025247 rp=52668 tb=4257101 tp=15650 op=0
+      st=1754938800 rb=3035166 rp=4054 tb=770004 tp=3239 op=0
+      st=1754942400 rb=300277 rp=719 tb=195247 tp=767 op=0
+      st=1754946000 rb=594413 rp=1168 tb=309892 tp=981 op=0
+      st=1754956800 rb=7060224 rp=6920 tb=913127 tp=3683 op=0
+      st=1754960400 rb=340279 rp=713 tb=196870 tp=770 op=0
+      st=1754964000 rb=5863297 rp=9467 tb=3685224 tp=8807 op=0
+      st=1754967600 rb=3902864 rp=6865 tb=1598521 tp=5766 op=0
+      st=1754971200 rb=36455252 rp=33473 tb=2485809 tp=8284 op=0
+      st=1754974800 rb=57261953 rp=51867 tb=4021240 tp=14470 op=0
+      st=1754978400 rb=1808036 rp=3676 tb=990620 tp=3068 op=0
+      st=1754982000 rb=17797760 rp=19672 tb=2896153 tp=10386 op=0
+      st=1754985600 rb=10879657 rp=11642 tb=1893796 tp=6679 op=0
+      st=1754989200 rb=6747910 rp=11094 tb=2938867 tp=8770 op=0
+      st=1754992800 rb=23397772 rp=24717 tb=2953788 tp=11575 op=0
+      st=1754996400 rb=4079164 rp=5686 tb=1213339 tp=4117 op=0
+      st=1755000000 rb=9558562 rp=9187 tb=904918 tp=6614 op=0
+      st=1755003600 rb=2452183 rp=3282 tb=606724 tp=3086 op=0
+      st=1755007200 rb=5869602 rp=11717 tb=3362684 tp=13441 op=0
+      st=1755010800 rb=1529163 rp=2519 tb=703433 tp=2075 op=0
+      st=1755014400 rb=2774743 rp=6659 tb=4165271 tp=7247 op=0
+      st=1755018000 rb=18217769 rp=53180 tb=2435027 tp=12470 op=0
+      st=1755021600 rb=30018053 rp=27731 tb=2671468 tp=14869 op=0
+      st=1755025200 rb=33755 rp=94 tb=36901 tp=115 op=0
+      st=1755028800 rb=32120 rp=116 tb=25659 tp=99 op=0
+      st=1755032400 rb=182950 rp=197 tb=28128 tp=171 op=0
+      st=1755039600 rb=1313502 rp=1276 tb=157291 tp=948 op=0
+      st=1755043200 rb=89110 rp=270 tb=64556 tp=270 op=0
+      st=1755064800 rb=120306891 rp=141001 tb=24361823 tp=92515 op=0
+      st=1755068400 rb=217806267 rp=188948 tb=10616444 tp=49463 op=0
+      st=1755082800 rb=293906 rp=351 tb=75239 tp=276 op=0
+      st=1755090000 rb=9377 rp=14 tb=27599 tp=38 op=0
+      st=1755108000 rb=7891 rp=20 tb=7164 tp=18 op=0
+      st=1755158400 rb=505503 rp=915 tb=228658 tp=858 op=0
+      st=1755176400 rb=242725 rp=402 tb=56211 tp=362 op=0
+      st=1755180000 rb=296674640 rp=243023 tb=7064353 tp=35149 op=0
+      st=1755255600 rb=149145 rp=531 tb=75602 tp=271 op=0
+      st=1755259200 rb=800654 rp=2019 tb=535052 tp=1951 op=0
+      st=1755262800 rb=5455083 rp=5696 tb=694733 tp=3407 op=0
+      st=1755266400 rb=2529297 rp=3116 tb=496069 tp=2474 op=0
+      st=1755270000 rb=705896 rp=1541 tb=368558 tp=1584 op=0
+      st=1755273600 rb=595378 rp=650 tb=116854 tp=309 op=0
+      st=1755280800 rb=211374 rp=396 tb=86561 tp=312 op=0
+      st=1755342000 rb=45188 rp=159 tb=16784 tp=93 op=0
+      st=1755345600 rb=17946 rp=56 tb=8679 tp=57 op=0
+      st=1755360000 rb=281725 rp=393 tb=65071 tp=309 op=0
+      st=1755363600 rb=146348 rp=409 tb=110614 tp=387 op=0
+      st=1755367200 rb=1760318 rp=3877 tb=1043373 tp=3477 op=0
+      st=1755370800 rb=227001 rp=617 tb=186091 tp=774 op=0
+      st=1755374400 rb=979768 rp=1843 tb=594135 tp=1802 op=0
+      st=1755399600 rb=1128838 rp=1958 tb=636671 tp=1996 op=0
+      st=1755417600 rb=4309 rp=13 tb=5307 tp=10 op=0
+      st=1755439200 rb=155790517 rp=119769 tb=3452050 tp=32938 op=0
+      st=1755442800 rb=34571 rp=107 tb=20755 tp=89 op=0
+      st=1755489600 rb=42177 rp=105 tb=30513 tp=115 op=0
+      st=1755493200 rb=512413 rp=1317 tb=300804 tp=1226 op=0
+      st=1755496800 rb=607303 rp=1467 tb=573379 tp=1411 op=0
+      st=1755500400 rb=8936 rp=66 tb=20904 tp=57 op=0
+      st=1755504000 rb=1500011 rp=2135 tb=374212 tp=1654 op=0
+      st=1755507600 rb=450246 rp=1532 tb=551577 tp=1629 op=0
+      st=1755514800 rb=33344 rp=170 tb=63625 tp=160 op=0
+      st=1755518400 rb=84234291 rp=78241 tb=8151196 tp=38434 op=0
+      st=1755522000 rb=4592 rp=16 tb=4189 tp=16 op=0
+      st=1755576000 rb=113325 rp=415 tb=75516 tp=405 op=0
+      st=1755579600 rb=1540182 rp=2810 tb=686394 tp=2815 op=0
+      st=1755583200 rb=928240 rp=1940 tb=545259 tp=2119 op=0
+      st=1755597600 rb=65289 rp=226 tb=50803 tp=240 op=0
+      st=1755601200 rb=340422 rp=532 tb=147019 tp=433 op=0
+      st=1755604800 rb=30345696 rp=28459 tb=2621244 tp=8275 op=0
+      st=1755612000 rb=134410 rp=353 tb=126360 tp=398 op=0
+      st=1755619200 rb=73557 rp=260 tb=104966 tp=321 op=0
+      st=1755658800 rb=368957 rp=688 tb=185095 tp=595 op=0
+      st=1755666000 rb=23296560 rp=26636 tb=3630371 tp=18167 op=0
+      st=1755669600 rb=6341996 rp=13326 tb=3449682 tp=12352 op=0
+      st=1755673200 rb=35664597 rp=34016 tb=2810825 tp=8633 op=0
+      st=1755676800 rb=76102408 rp=70376 tb=6127004 tp=16812 op=0
+      st=1755680400 rb=52824583 rp=46503 tb=2892434 tp=11291 op=0
+      st=1755684000 rb=13271496 rp=21014 tb=3029242 tp=10536 op=0
+      st=1755687600 rb=64900665 rp=64186 tb=8101959 tp=26819 op=0
+      st=1755698400 rb=67297 rp=283 tb=63580 tp=307 op=0
+      st=1755702000 rb=18501054 rp=17386 tb=1542022 tp=5348 op=0
+      st=1755752400 rb=2990 rp=26 tb=2714 tp=23 op=0
+      st=1755759600 rb=57520 rp=175 tb=62732 tp=176 op=0
+      st=1755763200 rb=178267 rp=534 tb=93359 tp=329 op=0
+      st=1755766800 rb=8238522 rp=11359 tb=1572460 tp=6615 op=0
+      st=1755770400 rb=2557867 rp=5768 tb=1364699 tp=5402 op=0
+      st=1755774000 rb=5797597 rp=5966 tb=699365 tp=3163 op=0
+      st=1755777600 rb=480803 rp=1206 tb=418880 tp=1326 op=0
+      st=1755781200 rb=604857 rp=841 tb=171357 tp=638 op=0
+      st=1755784800 rb=2910879 rp=2888 tb=379954 tp=1339 op=0
+      st=1755853200 rb=2476 rp=20 tb=2973 tp=24 op=0
+      st=1755860400 rb=56293 rp=202 tb=45669 tp=194 op=0
+      st=1755864000 rb=116753 rp=443 tb=146835 tp=482 op=0
+      st=1755867600 rb=3431921 rp=5695 tb=1715535 tp=6241 op=0
+      st=1755874800 rb=1751587 rp=1534 tb=65815 tp=289 op=0
+      st=1755889200 rb=52324 rp=96 tb=18214 tp=91 op=0
+      st=1755892800 rb=70260786 rp=64517 tb=4941901 tp=18013 op=0
+      st=1755896400 rb=23203410 rp=19924 tb=1077540 tp=4140 op=0
+  ident=[{type=0, ratType=13, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755018000 rb=11838863 rp=15454 tb=102783259 tp=82522 op=0
+      st=1755666000 rb=452658 rp=901 tb=1540977 tp=2698 op=0
+      st=1755763200 rb=0 rp=0 tb=74559 tp=147 op=0
+      st=1755766800 rb=2274767 rp=4185 tb=2488998 tp=4951 op=0
+      st=1755770400 rb=4399728 rp=9822 tb=3798901 tp=8474 op=0
+  ident=[{type=0, ratType=20, subscriberId=405861..., metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754773200 rb=96 rp=1 tb=48 tp=1 op=0
+      st=1755345600 rb=108 rp=1 tb=0 tp=0 op=0
+      st=1755489600 rb=97 rp=1 tb=0 tp=0 op=0
+      st=1755586800 rb=0 rp=0 tb=83792 tp=110 op=0
+      st=1755626400 rb=108 rp=1 tb=0 tp=0 op=0
+      st=1755770400 rb=108 rp=1 tb=0 tp=0 op=0
+      st=1755860400 rb=276 rp=3 tb=420 tp=3 op=0
+      st=1755864000 rb=930 rp=10 tb=1410 tp=10 op=0
+      st=1755874800 rb=144 rp=1 tb=192 tp=1 op=0
+  ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=false, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754586000 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1754665200 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1754679600 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1754884800 rb=0 rp=0 tb=79 tp=1 op=0
+      st=1754913600 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1754982000 rb=135 rp=1 tb=353 tp=4 op=0
+      st=1755018000 rb=16891 rp=120 tb=18510 tp=274 op=0
+      st=1755021600 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755057600 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755068400 rb=0 rp=0 tb=273 tp=3 op=0
+      st=1755082800 rb=0 rp=0 tb=97 tp=1 op=0
+      st=1755090000 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755162000 rb=50601 rp=358 tb=35792 tp=421 op=0
+      st=1755165600 rb=0 rp=0 tb=97 tp=1 op=0
+      st=1755180000 rb=877 rp=7 tb=360 tp=6 op=0
+      st=1755183600 rb=2108 rp=12 tb=874 tp=13 op=0
+      st=1755237600 rb=451346 rp=610 tb=76360 tp=575 op=0
+      st=1755241200 rb=6460 rp=61 tb=8021 tp=88 op=0
+      st=1755255600 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755342000 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755345600 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755417600 rb=17594 rp=150 tb=27747 tp=329 op=0
+      st=1755468000 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755496800 rb=533673 rp=465 tb=32133 tp=168 op=0
+      st=1755500400 rb=310 rp=2 tb=207 tp=3 op=0
+      st=1755511200 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755532800 rb=44044 rp=303 tb=30141 tp=348 op=0
+      st=1755626400 rb=135 rp=1 tb=546 tp=6 op=0
+      st=1755648000 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755658800 rb=7762 rp=65 tb=20995 tp=278 op=0
+      st=1755662400 rb=270 rp=2 tb=370 tp=4 op=0
+      st=1755680400 rb=135 rp=1 tb=546 tp=6 op=0
+      st=1755756000 rb=135 rp=1 tb=0 tp=0 op=0
+      st=1755763200 rb=381 rp=3 tb=180 tp=3 op=0
+      st=1755770400 rb=135 rp=1 tb=546 tp=6 op=0
+      st=1755774000 rb=4939 rp=47 tb=2580 tp=43 op=0
+      st=1755820800 rb=135 rp=1 tb=273 tp=3 op=0
+      st=1755864000 rb=82624 rp=119 tb=32795 tp=102 op=0
+      st=1755889200 rb=376 rp=2 tb=273 tp=3 op=0
+  ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1754586000 rb=2034009074 rp=1535536 tb=89044676 tp=218746 op=0
+      st=1754589600 rb=12289336 rp=77230 tb=6512210 tp=68221 op=0
+      st=1754593200 rb=71478603 rp=130490 tb=9566607 tp=80728 op=0
+      st=1754596800 rb=267109285 rp=226303 tb=12944640 tp=49388 op=0
+      st=1754600400 rb=390721076 rp=347032 tb=25830669 tp=93083 op=0
+      st=1754604000 rb=33827052 rp=31547 tb=3032638 tp=10873 op=0
+      st=1754607600 rb=1216439 rp=3179 tb=850037 tp=3130 op=0
+      st=1754611200 rb=947608 rp=2438 tb=687514 tp=2329 op=0
+      st=1754614800 rb=10875366 rp=9282 tb=737527 tp=3444 op=0
+      st=1754618400 rb=1391213 rp=2914 tb=855866 tp=2628 op=0
+      st=1754622000 rb=1129306 rp=2309 tb=525464 tp=1969 op=0
+      st=1754625600 rb=47848819 rp=44214 tb=4000907 tp=19980 op=0
+      st=1754629200 rb=445747901 rp=350539 tb=10590259 tp=54453 op=0
+      st=1754632800 rb=269564182 rp=221578 tb=13770517 tp=50533 op=0
+      st=1754636400 rb=22957281 rp=26884 tb=3788750 tp=14945 op=0
+      st=1754640000 rb=81468445 rp=74677 tb=6365384 tp=22077 op=0
+      st=1754643600 rb=5737150 rp=9525 tb=2400166 tp=7772 op=0
+      st=1754647200 rb=189247 rp=647 tb=129514 tp=575 op=0
+      st=1754654400 rb=61117656 rp=56850 tb=4356892 tp=15319 op=0
+      st=1754658000 rb=48318629 rp=44856 tb=4091501 tp=18018 op=0
+      st=1754661600 rb=47267180 rp=43531 tb=3204747 tp=11318 op=0
+      st=1754665200 rb=106690588 rp=95998 tb=5235467 tp=20120 op=0
+      st=1754668800 rb=335475934 rp=281215 tb=12212159 tp=43046 op=0
+      st=1754672400 rb=93922500 rp=80611 tb=4939033 tp=18923 op=0
+      st=1754676000 rb=125208494 rp=109030 tb=6418552 tp=24050 op=0
+      st=1754679600 rb=33599707 rp=30043 tb=2183480 tp=10568 op=0
+      st=1754683200 rb=247107536 rp=192999 tb=6589936 tp=33944 op=0
+      st=1754686800 rb=5532792 rp=9438 tb=3683898 tp=8503 op=0
+      st=1754690400 rb=1281536 rp=2999 tb=977461 tp=2972 op=0
+      st=1754694000 rb=1021359 rp=2465 tb=655381 tp=2316 op=0
+      st=1754697600 rb=981840 rp=2667 tb=596438 tp=2625 op=0
+      st=1754701200 rb=1811005 rp=3192 tb=740160 tp=2722 op=0
+      st=1754704800 rb=3741528 rp=5673 tb=1215582 tp=4847 op=0
+      st=1754708400 rb=22427614 rp=21714 tb=1938456 tp=7826 op=0
+      st=1754712000 rb=169411235 rp=132612 tb=5375008 tp=25133 op=0
+      st=1754715600 rb=96642153 rp=76176 tb=2768652 tp=15250 op=0
+      st=1754719200 rb=142055965 rp=127349 tb=8849470 tp=30748 op=0
+      st=1754722800 rb=156957259 rp=135486 tb=7254720 tp=26297 op=0
+      st=1754726400 rb=3954177 rp=5841 tb=1242082 tp=4964 op=0
+      st=1754730000 rb=5636535 rp=6821 tb=1184127 tp=5217 op=0
+      st=1754733600 rb=4765048 rp=7599 tb=1743863 tp=6495 op=0
+      st=1754737200 rb=75768939 rp=63038 tb=3174576 tp=14746 op=0
+      st=1754740800 rb=125633129 rp=113664 tb=11442308 tp=32160 op=0
+      st=1754744400 rb=194769541 rp=169416 tb=10165371 tp=37156 op=0
+      st=1754748000 rb=34094186 rp=37073 tb=4501274 tp=17422 op=0
+      st=1754751600 rb=4787599 rp=9572 tb=2386997 tp=8318 op=0
+      st=1754755200 rb=3057722 rp=5995 tb=1673089 tp=5478 op=0
+      st=1754758800 rb=34596017 rp=31187 tb=2391423 tp=9462 op=0
+      st=1754762400 rb=159624733 rp=120664 tb=3044537 tp=25216 op=0
+      st=1754766000 rb=228852144 rp=177265 tb=6959190 tp=35767 op=0
+      st=1754769600 rb=25119269 rp=22790 tb=1394049 tp=9379 op=0
+      st=1754773200 rb=256138 rp=350 tb=47664 tp=250 op=0
+      st=1754787600 rb=2945983 rp=4244 tb=1062973 tp=3398 op=0
+      st=1754791200 rb=26127 rp=77 tb=13949 tp=58 op=0
+      st=1754794800 rb=2019182 rp=3590 tb=1085827 tp=3484 op=0
+      st=1754798400 rb=4563986 rp=5285 tb=1072447 tp=3338 op=0
+      st=1754802000 rb=2964133 rp=4352 tb=1115342 tp=3790 op=0
+      st=1754805600 rb=32119757 rp=28069 tb=1743541 tp=6947 op=0
+      st=1754809200 rb=2618522 rp=4446 tb=1204728 tp=3946 op=0
+      st=1754812800 rb=1883632 rp=2659 tb=540974 tp=2565 op=0
+      st=1754816400 rb=7564922 rp=8487 tb=1405824 tp=5943 op=0
+      st=1754827200 rb=37360 rp=102 tb=34373 tp=92 op=0
+      st=1754830800 rb=3338 rp=20 tb=1809 tp=19 op=0
+      st=1754834400 rb=139874 rp=454 tb=82682 tp=430 op=0
+      st=1754838000 rb=6461763 rp=8488 tb=1474929 tp=5707 op=0
+      st=1754841600 rb=15570662 rp=18584 tb=3325473 tp=11215 op=0
+      st=1754845200 rb=7073139 rp=9259 tb=1578743 tp=6724 op=0
+      st=1754848800 rb=4339988 rp=5046 tb=793171 tp=2892 op=0
+      st=1754870400 rb=5847591 rp=8613 tb=1743094 tp=5836 op=0
+      st=1754874000 rb=599233 rp=1530 tb=813053 tp=1629 op=0
+      st=1754877600 rb=3245764 rp=6898 tb=1874163 tp=5648 op=0
+      st=1754881200 rb=292767 rp=1485 tb=228660 tp=1730 op=0
+      st=1754884800 rb=19347818 rp=23250 tb=3598835 tp=13356 op=0
+      st=1754888400 rb=15478348 rp=21317 tb=4496012 tp=14259 op=0
+      st=1754892000 rb=60624 rp=175 tb=152235 tp=401 op=0
+      st=1754895600 rb=22074706 rp=26378 tb=5081636 tp=17735 op=0
+      st=1754899200 rb=64368781 rp=56668 tb=3399805 tp=12650 op=0
+      st=1754902800 rb=4068205 rp=5148 tb=967540 tp=3322 op=0
+      st=1754906400 rb=8599517 rp=9195 tb=1127845 tp=4429 op=0
+      st=1754910000 rb=13277429 rp=15053 tb=2148973 tp=8454 op=0
+      st=1754913600 rb=22476057 rp=23061 tb=2682855 tp=8650 op=0
+      st=1754917200 rb=72956306 rp=63063 tb=3406614 tp=13610 op=0
+      st=1754920800 rb=1877188 rp=3105 tb=739991 tp=2176 op=0
+      st=1754924400 rb=3787028 rp=5845 tb=1347180 tp=4878 op=0
+      st=1754928000 rb=5010694 rp=6242 tb=1225198 tp=4253 op=0
+      st=1754931600 rb=419086 rp=654 tb=105345 tp=566 op=0
+      st=1754935200 rb=44900406 rp=38579 tb=1538538 tp=5880 op=0
+      st=1754964000 rb=325730 rp=670 tb=186586 tp=661 op=0
+      st=1754971200 rb=2978740 rp=5352 tb=1441765 tp=5449 op=0
+      st=1754974800 rb=30647 rp=123 tb=23585 tp=146 op=0
+      st=1754978400 rb=13902691 rp=17491 tb=3301961 tp=10354 op=0
+      st=1754982000 rb=7223278 rp=8535 tb=1442900 tp=4865 op=0
+      st=1754985600 rb=9112327 rp=11442 tb=2040653 tp=7087 op=0
+      st=1754989200 rb=2306138 rp=4835 tb=932413 tp=3424 op=0
+      st=1754996400 rb=29827276 rp=34131 tb=5040064 tp=17801 op=0
+      st=1755000000 rb=28904015 rp=27931 tb=2926613 tp=10043 op=0
+      st=1755003600 rb=50040432 rp=53317 tb=7769467 tp=28218 op=0
+      st=1755007200 rb=2400887 rp=4268 tb=1139961 tp=3640 op=0
+      st=1755010800 rb=3171212 rp=5539 tb=1418374 tp=4701 op=0
+      st=1755014400 rb=44724955 rp=98484 tb=216118917 tp=187122 op=0
+      st=1755018000 rb=59599778 rp=296505 tb=21043558 tp=31468 op=0
+      st=1755021600 rb=7636546 rp=10601 tb=1809972 tp=7789 op=0
+      st=1755025200 rb=1660922 rp=2231 tb=447238 tp=1691 op=0
+      st=1755028800 rb=344842 rp=810 tb=313356 tp=840 op=0
+      st=1755032400 rb=34478 rp=127 tb=44357 tp=116 op=0
+      st=1755039600 rb=938359 rp=2065 tb=733431 tp=1929 op=0
+      st=1755043200 rb=127738588 rp=108686 tb=5893381 tp=18569 op=0
+      st=1755046800 rb=219253778 rp=189373 tb=10521017 tp=36703 op=0
+      st=1755050400 rb=1244065 rp=2240 tb=405208 tp=1976 op=0
+      st=1755057600 rb=3734645 rp=5369 tb=1275806 tp=4280 op=0
+      st=1755061200 rb=3232459 rp=5225 tb=1360550 tp=5144 op=0
+      st=1755064800 rb=104440661 rp=96089 tb=7626733 tp=30581 op=0
+      st=1755068400 rb=103546468 rp=94119 tb=7466874 tp=33887 op=0
+      st=1755072000 rb=193476279 rp=148847 tb=6032861 tp=29256 op=0
+      st=1755075600 rb=77499879 rp=69484 tb=4585388 tp=17967 op=0
+      st=1755079200 rb=1009119375 rp=795271 tb=9475117 tp=90166 op=0
+      st=1755082800 rb=9929199 rp=13705 tb=2728964 tp=10237 op=0
+      st=1755086400 rb=10132995 rp=13281 tb=2390092 tp=9340 op=0
+      st=1755090000 rb=232763366 rp=202340 tb=15038781 tp=70930 op=0
+      st=1755093600 rb=422064277 rp=320744 tb=8183958 tp=60532 op=0
+      st=1755097200 rb=23133169 rp=101674 tb=11147937 tp=88741 op=0
+      st=1755100800 rb=19764534 rp=124405 tb=13136814 tp=116085 op=0
+      st=1755104400 rb=9407234 rp=46525 tb=5733300 tp=46757 op=0
+      st=1755108000 rb=17573536 rp=58194 tb=5643407 tp=56375 op=0
+      st=1755111600 rb=49395869 rp=43493 tb=2958924 tp=11257 op=0
+      st=1755115200 rb=94436413 rp=89716 tb=8818726 tp=33411 op=0
+      st=1755118800 rb=2588753 rp=4664 tb=1136525 tp=4080 op=0
+      st=1755122400 rb=1056729 rp=2599 tb=733534 tp=2569 op=0
+      st=1755126000 rb=667900 rp=2012 tb=416189 tp=1973 op=0
+      st=1755129600 rb=888999 rp=2327 tb=580483 tp=2183 op=0
+      st=1755133200 rb=1533549 rp=3557 tb=730943 tp=3232 op=0
+      st=1755136800 rb=1695954 rp=3158 tb=635255 tp=2653 op=0
+      st=1755140400 rb=5376972 rp=8722 tb=2073900 tp=7302 op=0
+      st=1755144000 rb=62041849 rp=58092 tb=5567616 tp=17760 op=0
+      st=1755147600 rb=274681030 rp=230342 tb=9577568 tp=35772 op=0
+      st=1755151200 rb=21691553 rp=75712 tb=16237218 tp=77686 op=0
+      st=1755154800 rb=27060742 rp=131558 tb=10326894 tp=113952 op=0
+      st=1755158400 rb=59933739 rp=86906 tb=11233063 tp=59739 op=0
+      st=1755162000 rb=12739777 rp=16825 tb=2662977 tp=11297 op=0
+      st=1755165600 rb=4927541 rp=8509 tb=2330089 tp=7300 op=0
+      st=1755169200 rb=3097158 rp=5521 tb=1288067 tp=4946 op=0
+      st=1755172800 rb=2073700 rp=3477 tb=802697 tp=3310 op=0
+      st=1755176400 rb=22148969 rp=25961 tb=4119274 tp=15760 op=0
+      st=1755183600 rb=5526334 rp=8472 tb=2082076 tp=6758 op=0
+      st=1755187200 rb=2525131 rp=5338 tb=1370182 tp=5050 op=0
+      st=1755190800 rb=29806114 rp=26811 tb=1940195 tp=9755 op=0
+      st=1755194400 rb=31092818 rp=129223 tb=11818762 tp=110705 op=0
+      st=1755198000 rb=9355466 rp=56896 tb=5287981 tp=46574 op=0
+      st=1755201600 rb=124841947 rp=103916 tb=3756813 tp=13823 op=0
+      st=1755205200 rb=82925676 rp=66329 tb=2860254 tp=15313 op=0
+      st=1755208800 rb=608116861 rp=439018 tb=6452958 tp=41728 op=0
+      st=1755212400 rb=1259722 rp=3288 tb=847058 tp=3197 op=0
+      st=1755216000 rb=1008417 rp=2763 tb=612602 tp=2672 op=0
+      st=1755219600 rb=1577423 rp=3374 tb=762944 tp=3119 op=0
+      st=1755223200 rb=1598774 rp=2651 tb=587682 tp=2317 op=0
+      st=1755226800 rb=7543188 rp=8319 tb=1044712 tp=4470 op=0
+      st=1755230400 rb=4911507 rp=5123 tb=660718 tp=2890 op=0
+      st=1755234000 rb=55222964 rp=50167 tb=3279485 tp=13116 op=0
+      st=1755237600 rb=34787357 rp=32702 tb=3175975 tp=13139 op=0
+      st=1755241200 rb=8059904 rp=9537 tb=1390824 tp=5316 op=0
+      st=1755244800 rb=18869185 rp=18434 tb=1704447 tp=6696 op=0
+      st=1755248400 rb=85138924 rp=70733 tb=3176462 tp=16237 op=0
+      st=1755252000 rb=197834103 rp=171145 tb=10466127 tp=34373 op=0
+      st=1755255600 rb=29582556 rp=38952 tb=9308960 tp=28767 op=0
+      st=1755259200 rb=1644775 rp=4131 tb=1247866 tp=3787 op=0
+      st=1755262800 rb=1058325917 rp=833831 tb=10237577 tp=97034 op=0
+      st=1755266400 rb=25261544 rp=48460 tb=9169350 tp=29029 op=0
+      st=1755270000 rb=2367440 rp=3406 tb=739653 tp=2296 op=0
+      st=1755273600 rb=21127448 rp=22076 tb=2800018 tp=9300 op=0
+      st=1755277200 rb=1505819 rp=3659 tb=1057454 tp=3478 op=0
+      st=1755280800 rb=35596777 rp=46272 tb=4685160 tp=25612 op=0
+      st=1755284400 rb=32277135 rp=119010 tb=14785825 tp=101296 op=0
+      st=1755288000 rb=258737995 rp=209028 tb=5773812 tp=28152 op=0
+      st=1755291600 rb=78367469 rp=69320 tb=4695155 tp=19782 op=0
+      st=1755295200 rb=1445434 rp=3132 tb=944805 tp=3072 op=0
+      st=1755298800 rb=2081256 rp=4403 tb=1181964 tp=4251 op=0
+      st=1755302400 rb=2187762 rp=5422 tb=1532934 tp=5198 op=0
+      st=1755306000 rb=1425310 rp=3242 tb=1003559 tp=3154 op=0
+      st=1755309600 rb=2759951 rp=5028 tb=1103437 tp=4181 op=0
+      st=1755313200 rb=1563260 rp=3360 tb=685446 tp=2893 op=0
+      st=1755316800 rb=20722060 rp=67109 tb=7478330 tp=53462 op=0
+      st=1755320400 rb=10876894 rp=54029 tb=8484493 tp=57268 op=0
+      st=1755324000 rb=151185619 rp=150325 tb=9929753 tp=48485 op=0
+      st=1755327600 rb=227347514 rp=188688 tb=7073085 tp=27560 op=0
+      st=1755331200 rb=82321401 rp=69876 tb=3002458 tp=12207 op=0
+      st=1755334800 rb=181285677 rp=155932 tb=8937711 tp=32281 op=0
+      st=1755338400 rb=80622854 rp=69884 tb=3649269 tp=14790 op=0
+      st=1755342000 rb=112653558 rp=92323 tb=4211073 tp=22017 op=0
+      st=1755345600 rb=458501941 rp=344666 tb=11025386 tp=76896 op=0
+      st=1755349200 rb=62053907 rp=58356 tb=4051337 tp=15852 op=0
+      st=1755352800 rb=21284264 rp=98183 tb=7897019 tp=79316 op=0
+      st=1755356400 rb=14878771 rp=59011 tb=7016341 tp=52837 op=0
+      st=1755360000 rb=28588208 rp=31269 tb=3274745 tp=14697 op=0
+      st=1755363600 rb=12431191 rp=16365 tb=1989326 tp=8817 op=0
+      st=1755367200 rb=2083836 rp=5545 tb=733829 tp=4375 op=0
+      st=1755370800 rb=1021683 rp=2286 tb=736974 tp=2347 op=0
+      st=1755374400 rb=217681 rp=456 tb=118538 tp=456 op=0
+      st=1755378000 rb=29597 rp=103 tb=24982 tp=129 op=0
+      st=1755388800 rb=3929563 rp=4262 tb=570823 tp=1810 op=0
+      st=1755392400 rb=103644 rp=217 tb=55057 tp=259 op=0
+      st=1755396000 rb=1026834 rp=1820 tb=531275 tp=2387 op=0
+      st=1755399600 rb=46274575 rp=42773 tb=3628232 tp=11513 op=0
+      st=1755403200 rb=7504776 rp=6971 tb=543955 tp=2342 op=0
+      st=1755406800 rb=5526658 rp=4896 tb=574146 tp=2977 op=0
+      st=1755410400 rb=52685149 rp=47090 tb=3522029 tp=14514 op=0
+      st=1755414000 rb=130938401 rp=112181 tb=5897913 tp=19654 op=0
+      st=1755417600 rb=117841010 rp=96056 tb=4305322 tp=19415 op=0
+      st=1755421200 rb=156862733 rp=193978 tb=14324611 tp=98420 op=0
+      st=1755424800 rb=149962033 rp=198278 tb=43711845 tp=89704 op=0
+      st=1755428400 rb=374883136 rp=576873 tb=122022973 tp=282153 op=0
+      st=1755432000 rb=345948014 rp=543295 tb=117962585 tp=276717 op=0
+      st=1755435600 rb=780799577 rp=607008 tb=17850569 tp=119331 op=0
+      st=1755439200 rb=92390146 rp=69485 tb=2049088 tp=15350 op=0
+      st=1755442800 rb=774339096 rp=576749 tb=10936248 tp=64914 op=0
+      st=1755446400 rb=802346936 rp=585637 tb=10665929 tp=65614 op=0
+      st=1755450000 rb=66777195 rp=66887 tb=7106137 tp=27971 op=0
+      st=1755453600 rb=18987681 rp=94426 tb=7890402 tp=76534 op=0
+      st=1755457200 rb=18329827 rp=124880 tb=10092997 tp=111939 op=0
+      st=1755460800 rb=82167309 rp=93286 tb=5637391 tp=46185 op=0
+      st=1755464400 rb=12381358 rp=14298 tb=2399161 tp=9134 op=0
+      st=1755468000 rb=123267171 rp=92390 tb=2645569 tp=14084 op=0
+      st=1755471600 rb=1947369 rp=4726 tb=1369758 tp=4764 op=0
+      st=1755475200 rb=1419167 rp=3497 tb=913974 tp=3423 op=0
+      st=1755478800 rb=1254788 rp=2976 tb=796487 tp=2942 op=0
+      st=1755482400 rb=1356941 rp=3161 tb=815402 tp=3160 op=0
+      st=1755486000 rb=3530912 rp=5497 tb=1118983 tp=4524 op=0
+      st=1755489600 rb=2800223 rp=5542 tb=1244471 tp=5150 op=0
+      st=1755493200 rb=10161681 rp=8654 tb=732515 tp=3919 op=0
+      st=1755496800 rb=1838905 rp=2911 tb=612646 tp=2537 op=0
+      st=1755500400 rb=44728216 rp=42478 tb=4664246 tp=18336 op=0
+      st=1755504000 rb=2250877 rp=4139 tb=824044 tp=3476 op=0
+      st=1755507600 rb=69661039 rp=61176 tb=3397490 tp=12816 op=0
+      st=1755511200 rb=356608292 rp=302672 tb=15458143 tp=56742 op=0
+      st=1755514800 rb=311524369 rp=289337 tb=25327111 tp=106538 op=0
+      st=1755522000 rb=138937775 rp=117556 tb=7950188 tp=39773 op=0
+      st=1755525600 rb=171926859 rp=129588 tb=3455389 tp=23519 op=0
+      st=1755529200 rb=15839148 rp=65510 tb=7981964 tp=61305 op=0
+      st=1755532800 rb=161479919 rp=133743 tb=5709450 tp=23868 op=0
+      st=1755536400 rb=43707005 rp=39773 tb=3106691 tp=10218 op=0
+      st=1755540000 rb=44623970 rp=49754 tb=7639463 tp=27068 op=0
+      st=1755543600 rb=262935710 rp=222044 tb=14440955 tp=56341 op=0
+      st=1755547200 rb=2072906 rp=3908 tb=878236 tp=3358 op=0
+      st=1755550800 rb=2343120 rp=3803 tb=824023 tp=3345 op=0
+      st=1755554400 rb=1031410 rp=2585 tb=690922 tp=2550 op=0
+      st=1755558000 rb=1552847 rp=3517 tb=981558 tp=3437 op=0
+      st=1755561600 rb=1049135 rp=2810 tb=747693 tp=2662 op=0
+      st=1755565200 rb=1986278 rp=4516 tb=1251838 tp=3992 op=0
+      st=1755568800 rb=1581597 rp=3744 tb=906212 tp=3371 op=0
+      st=1755572400 rb=6360298 rp=9846 tb=2065270 tp=7861 op=0
+      st=1755576000 rb=80244491 rp=72391 tb=5037538 tp=16832 op=0
+      st=1755579600 rb=1657983 rp=1855 tb=254451 tp=1498 op=0
+      st=1755583200 rb=14344225 rp=11986 tb=820860 tp=4145 op=0
+      st=1755586800 rb=130055410 rp=118418 tb=16807220 tp=35380 op=0
+      st=1755590400 rb=14880397 rp=87680 tb=35122205 tp=92194 op=0
+      st=1755594000 rb=23728755 rp=132836 tb=11790703 tp=120892 op=0
+      st=1755597600 rb=175712364 rp=154802 tb=9655232 tp=54325 op=0
+      st=1755601200 rb=91883463 rp=83886 tb=12797004 tp=29652 op=0
+      st=1755604800 rb=189832354 rp=158686 tb=8765017 tp=33280 op=0
+      st=1755608400 rb=84459431 rp=75682 tb=5528403 tp=21940 op=0
+      st=1755612000 rb=102435052 rp=86416 tb=4866462 tp=23116 op=0
+      st=1755615600 rb=1611934 rp=3556 tb=967326 tp=3380 op=0
+      st=1755619200 rb=1436061 rp=3488 tb=1005321 tp=3306 op=0
+      st=1755622800 rb=275318784 rp=235866 tb=11061169 tp=40274 op=0
+      st=1755626400 rb=1562997359 rp=1172992 tb=35745392 tp=243104 op=0
+      st=1755630000 rb=225411869 rp=187370 tb=9244206 tp=36022 op=0
+      st=1755633600 rb=100939204 rp=76951 tb=3648693 tp=12699 op=0
+      st=1755637200 rb=14227715 rp=10770 tb=316216 tp=1529 op=0
+      st=1755648000 rb=1831941 rp=2261 tb=369473 tp=1514 op=0
+      st=1755651600 rb=2763008 rp=2530 tb=201451 tp=1244 op=0
+      st=1755655200 rb=2010205 rp=3543 tb=1027093 tp=3237 op=0
+      st=1755658800 rb=15081066 rp=15723 tb=2189853 tp=8119 op=0
+      st=1755662400 rb=404407883 rp=334941 tb=15790298 tp=70887 op=0
+      st=1755666000 rb=3223704 rp=7288 tb=3399110 tp=9356 op=0
+      st=1755669600 rb=2331151 rp=5419 tb=2778052 tp=7183 op=0
+      st=1755673200 rb=1628045 rp=3758 tb=2212870 tp=5660 op=0
+      st=1755676800 rb=15660689 rp=17241 tb=2552970 tp=10799 op=0
+      st=1755680400 rb=25934013 rp=30396 tb=6019129 tp=23120 op=0
+      st=1755684000 rb=8054739 rp=21638 tb=9451655 tp=30753 op=0
+      st=1755687600 rb=23860256 rp=21309 tb=1643172 tp=8799 op=0
+      st=1755691200 rb=160911209 rp=144013 tb=9866813 tp=34835 op=0
+      st=1755694800 rb=212735510 rp=171495 tb=6817306 tp=30165 op=0
+      st=1755698400 rb=419277079 rp=333889 tb=15016166 tp=90292 op=0
+      st=1755702000 rb=55711611 rp=53752 tb=5264358 tp=19976 op=0
+      st=1755705600 rb=20061059 rp=129558 tb=14251398 tp=119867 op=0
+      st=1755709200 rb=40166859 rp=38436 tb=3594637 tp=11962 op=0
+      st=1755712800 rb=5965145 rp=7759 tb=1372549 tp=4403 op=0
+      st=1755716400 rb=67925759 rp=158564 tb=11768408 tp=113585 op=0
+      st=1755720000 rb=172263218 rp=204520 tb=13870724 tp=89019 op=0
+      st=1755723600 rb=189274768 rp=154036 tb=7720005 tp=34657 op=0
+      st=1755727200 rb=1133705 rp=2509 tb=668381 tp=2355 op=0
+      st=1755730800 rb=2090149 rp=4741 tb=1386985 tp=4629 op=0
+      st=1755734400 rb=1277453 rp=3205 tb=810682 tp=3020 op=0
+      st=1755738000 rb=1219932 rp=3508 tb=812637 tp=3204 op=0
+      st=1755741600 rb=1208076 rp=2826 tb=773524 tp=2734 op=0
+      st=1755745200 rb=10682913 rp=11957 tb=1734403 tp=5448 op=0
+      st=1755748800 rb=52780846 rp=46393 tb=2665086 tp=8079 op=0
+      st=1755752400 rb=312344042 rp=259238 tb=8982550 tp=33735 op=0
+      st=1755756000 rb=389124849 rp=309327 tb=4093865 tp=35906 op=0
+      st=1755759600 rb=182585772 rp=151264 tb=7720599 tp=33966 op=0
+      st=1755763200 rb=132363569 rp=111873 tb=3538849 tp=16830 op=0
+      st=1755766800 rb=18706211 rp=27797 tb=377887 tp=2600 op=0
+      st=1755770400 rb=1468687 rp=2224 tb=781971 tp=2898 op=0
+      st=1755774000 rb=110874593 rp=93908 tb=5345510 tp=23953 op=0
+      st=1755777600 rb=199066154 rp=171510 tb=10733191 tp=46291 op=0
+      st=1755781200 rb=122905902 rp=103292 tb=9588969 tp=31721 op=0
+      st=1755784800 rb=65812584 rp=61640 tb=5693071 tp=20565 op=0
+      st=1755788400 rb=174673330 rp=150548 tb=9031673 tp=32533 op=0
+      st=1755792000 rb=1201666582 rp=919696 tb=21435093 tp=226927 op=0
+      st=1755795600 rb=124682726 rp=108499 tb=6724895 tp=23797 op=0
+      st=1755799200 rb=65037124 rp=56350 tb=3727809 tp=20490 op=0
+      st=1755802800 rb=44273689 rp=40392 tb=2880905 tp=8610 op=0
+      st=1755806400 rb=28265522 rp=134962 tb=13340092 tp=116148 op=0
+      st=1755810000 rb=56984026 rp=146422 tb=10978627 tp=102635 op=0
+      st=1755813600 rb=88705884 rp=75859 tb=5600987 tp=21428 op=0
+      st=1755820800 rb=1546785 rp=2146 tb=378212 tp=1493 op=0
+      st=1755824400 rb=883611 rp=1983 tb=675731 tp=1962 op=0
+      st=1755828000 rb=613420 rp=1168 tb=307927 tp=1170 op=0
+      st=1755831600 rb=9448108 rp=9045 tb=880892 tp=2889 op=0
+      st=1755835200 rb=1506786 rp=2869 tb=775739 tp=2641 op=0
+      st=1755838800 rb=123148646 rp=105870 tb=6116000 tp=22126 op=0
+      st=1755842400 rb=190285480 rp=156817 tb=7023654 tp=43962 op=0
+      st=1755846000 rb=6878738 rp=14292 tb=2262717 tp=11390 op=0
+      st=1755849600 rb=126276640 rp=104290 tb=6487222 tp=33715 op=0
+      st=1755853200 rb=48250932 rp=45409 tb=4225135 tp=13426 op=0
+      st=1755856800 rb=25758653 rp=29059 tb=3874355 tp=14437 op=0
+      st=1755860400 rb=66081734 rp=64759 tb=6628240 tp=23852 op=0
+      st=1755864000 rb=13867496 rp=19809 tb=6039744 tp=16146 op=0
+      st=1755867600 rb=39680576 rp=38563 tb=6156454 tp=16691 op=0
+      st=1755871200 rb=196380287 rp=153850 tb=5429262 tp=30404 op=0
+      st=1755874800 rb=26552295 rp=27474 tb=3303496 tp=18562 op=0
+      st=1755878400 rb=2775310 rp=5783 tb=1574628 tp=5503 op=0
+      st=1755882000 rb=1605044 rp=3162 tb=948507 tp=2976 op=0
+      st=1755885600 rb=489354360 rp=369783 tb=11821935 tp=89517 op=0
+      st=1755889200 rb=4413466899 rp=3256145 tb=47949790 tp=490372 op=0
+      st=1755896400 rb=148891161 rp=113876 tb=3427959 tp=18744 op=0
+  ident=[{type=0, ratType=20, subscriberId=405861..., metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=1}] uid=-1 set=DEFAULT tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755018000 rb=0 rp=0 tb=917643715 tp=678321 op=0
+      st=1755763200 rb=82839 rp=130 tb=4436247 tp=11331 op=0
+      st=1755766800 rb=0 rp=0 tb=7880493 tp=16638 op=0
+      st=1755770400 rb=141431 rp=385 tb=262321 tp=468 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="CRUZ ACT"wpa2-psk, metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755864000 rb=6613 rp=36 tb=10444 tp=101 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="CRUZ ACT"wpa2-psk, metered=false, defaultNetwork=true, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755864000 rb=6605639 rp=7281 tb=911617 tp=3121 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="Noted5g"wpa2-psk, metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755162000 rb=1015100 rp=3918 tb=5818401 tp=5291 op=0
+      st=1755180000 rb=2439 rp=21 tb=3133 tp=24 op=0
+      st=1755183600 rb=28632 rp=148 tb=17891 tp=176 op=0
+      st=1755237600 rb=398033 rp=1188 tb=48947 tp=485 op=0
+      st=1755241200 rb=116023 rp=631 tb=58804 tp=524 op=0
+      st=1755417600 rb=279500 rp=1172 tb=70659 tp=655 op=0
+      st=1755532800 rb=220987 rp=1143 tb=137193 tp=713 op=0
+      st=1755658800 rb=10555 rp=39 tb=4358 tp=41 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="Noted5g"wpa2-psk, metered=false, defaultNetwork=true, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755162000 rb=206053599 rp=317610 tb=490072888 tp=396516 op=0
+      st=1755180000 rb=525353229 rp=495751 tb=281727917 tp=284671 op=0
+      st=1755183600 rb=29842372 rp=34194 tb=5605621 tp=12824 op=0
+      st=1755237600 rb=117178395 rp=102016 tb=5453431 tp=30057 op=0
+      st=1755241200 rb=17483442 rp=16362 tb=847626 tp=3732 op=0
+      st=1755417600 rb=93738361 rp=83075 tb=3560652 tp=17245 op=0
+      st=1755532800 rb=28540071 rp=28389 tb=3711051 tp=19564 op=0
+      st=1755658800 rb=120078161 rp=98456 tb=3009372 tp=18314 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="RITSTUDENTS"wpa2-psk, metered=false, defaultNetwork=false, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755496800 rb=7112 rp=19 tb=2909 tp=23 op=0
+      st=1755763200 rb=28634 rp=141 tb=11220 tp=115 op=0
+      st=1755774000 rb=21438 rp=198 tb=54768 tp=215 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="RITSTUDENTS"wpa2-psk, metered=false, defaultNetwork=true, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755496800 rb=9164227 rp=14185 tb=2432255 tp=9838 op=0
+      st=1755500400 rb=8298571 rp=12719 tb=1897874 tp=8014 op=0
+      st=1755763200 rb=17905028 rp=21181 tb=3101437 tp=12220 op=0
+      st=1755774000 rb=8550489 rp=10211 tb=1794860 tp=5537 op=0
+  ident=[{type=1, ratType=COMBINED, wifiNetworkKey="iQOO Neo7"wpa2-psk, metered=true, defaultNetwork=true, oemManaged=OEM_NONE, subId=-1}] uid=-1 set=ALL tag=0x0
+    NetworkStatsHistory: bucketDuration=3600
+      st=1755018000 rb=3548288 rp=5155 tb=1811288 tp=3990 op=0
+
+InterfaceMapHelper:
+  BPF map status:
+    IfaceIndexNameMap: OK
+  BPF map content:
+    IfaceIndexNameMap:
+      ifaceIndex=167 ifaceName=v4-ccmni1
+      ifaceIndex=100 ifaceName=v4-ccmni2
+      ifaceIndex=41 ifaceName=v4-ccmni1
+      ifaceIndex=149 ifaceName=v4-ccmni1
+      ifaceIndex=176 ifaceName=v4-ccmni2
+      ifaceIndex=40 ifaceName=v4-ccmni0
+      ifaceIndex=145 ifaceName=v4-ccmni1
+      ifaceIndex=91 ifaceName=v4-ccmni1
+      ifaceIndex=3 ifaceName=ccmni1
+      ifaceIndex=159 ifaceName=v4-ccmni2
+      ifaceIndex=4 ifaceName=ccmni2
+      ifaceIndex=182 ifaceName=v4-ccmni2
+      ifaceIndex=112 ifaceName=v4-ccmni2
+      ifaceIndex=55 ifaceName=v4-ccmni0
+      ifaceIndex=163 ifaceName=v4-ccmni2
+      ifaceIndex=128 ifaceName=v4-ccmni1
+      ifaceIndex=194 ifaceName=v4-ccmni1
+      ifaceIndex=164 ifaceName=v4-ccmni1
+      ifaceIndex=104 ifaceName=v4-ccmni0
+      ifaceIndex=101 ifaceName=v4-ccmni1
+      ifaceIndex=122 ifaceName=ap0
+      ifaceIndex=78 ifaceName=v4-ccmni1
+      ifaceIndex=58 ifaceName=v4-ccmni0
+      ifaceIndex=148 ifaceName=v4-ccmni2
+      ifaceIndex=26 ifaceName=ifb1
+      ifaceIndex=156 ifaceName=v4-ccmni0
+      ifaceIndex=150 ifaceName=v4-ccmni2
+      ifaceIndex=123 ifaceName=v4-ccmni1
+      ifaceIndex=37 ifaceName=v4-ccmni2
+      ifaceIndex=56 ifaceName=v4-ccmni1
+      ifaceIndex=109 ifaceName=v4-ccmni1
+      ifaceIndex=116 ifaceName=ap0
+      ifaceIndex=166 ifaceName=v4-ccmni2
+      ifaceIndex=129 ifaceName=v4-ccmni2
+      ifaceIndex=52 ifaceName=v4-ccmni0
+      ifaceIndex=77 ifaceName=v4-ccmni2
+      ifaceIndex=175 ifaceName=v4-ccmni1
+      ifaceIndex=59 ifaceName=v4-ccmni0
+      ifaceIndex=118 ifaceName=ap0
+      ifaceIndex=43 ifaceName=v4-ccmni1
+      ifaceIndex=95 ifaceName=v4-ccmni1
+      ifaceIndex=86 ifaceName=v4-ccmni2
+      ifaceIndex=110 ifaceName=v4-ccmni1
+      ifaceIndex=165 ifaceName=rndis0
+      ifaceIndex=171 ifaceName=v4-ccmni2
+      ifaceIndex=38 ifaceName=v4-ccmni1
+      ifaceIndex=186 ifaceName=v4-ccmni1
+      ifaceIndex=141 ifaceName=v4-ccmni1
+      ifaceIndex=57 ifaceName=v4-ccmni0
+      ifaceIndex=111 ifaceName=v4-ccmni1
+      ifaceIndex=75 ifaceName=v4-ccmni2
+      ifaceIndex=23 ifaceName=ccmni-lan
+      ifaceIndex=157 ifaceName=v4-ccmni2
+      ifaceIndex=1 ifaceName=lo
+      ifaceIndex=94 ifaceName=v4-ccmni2
+      ifaceIndex=158 ifaceName=v4-ccmni1
+      ifaceIndex=53 ifaceName=v4-ccmni1
+      ifaceIndex=179 ifaceName=ap0
+      ifaceIndex=177 ifaceName=v4-ccmni0
+      ifaceIndex=45 ifaceName=wlan1
+      ifaceIndex=174 ifaceName=v4-ccmni2
+      ifaceIndex=189 ifaceName=v4-ccmni2
+      ifaceIndex=135 ifaceName=v4-ccmni1
+      ifaceIndex=36 ifaceName=v4-ccmni1
+      ifaceIndex=173 ifaceName=ap0
+      ifaceIndex=69 ifaceName=v4-ccmni1
+      ifaceIndex=187 ifaceName=v4-ccmni2
+      ifaceIndex=34 ifaceName=v4-ccmni1
+      ifaceIndex=35 ifaceName=v4-ccmni2
+      ifaceIndex=130 ifaceName=v4-ccmni1
+      ifaceIndex=44 ifaceName=wlan0
+      ifaceIndex=39 ifaceName=v4-ccmni0
+      ifaceIndex=33 ifaceName=ifb2
+      ifaceIndex=76 ifaceName=v4-ccmni1
+      ifaceIndex=131 ifaceName=v4-ccmni1
+      ifaceIndex=25 ifaceName=ifb0
+      ifaceIndex=54 ifaceName=v4-ccmni1
+      ifaceIndex=162 ifaceName=v4-ccmni1
+      ifaceIndex=2 ifaceName=ccmni0
+      ifaceIndex=153 ifaceName=v4-ccmni1
+      ifaceIndex=136 ifaceName=v4-ccmni2
+      ifaceIndex=183 ifaceName=v4-ccmni0
+      ifaceIndex=24 ifaceName=dummy0
+      ifaceIndex=64 ifaceName=v4-ccmni1
+      ifaceIndex=169 ifaceName=v4-ccmni1
+      ifaceIndex=132 ifaceName=v4-ccmni2
+      ifaceIndex=127 ifaceName=v4-ccmni2
+      ifaceIndex=188 ifaceName=v4-ccmni1
+      ifaceIndex=60 ifaceName=v4-ccmni0
+      ifaceIndex=168 ifaceName=v4-ccmni2
+      ifaceIndex=126 ifaceName=v4-ccmni1
+      ifaceIndex=170 ifaceName=v4-ccmni1
+      ifaceIndex=61 ifaceName=v4-ccmni2
+      ifaceIndex=142 ifaceName=v4-ccmni2
+      ifaceIndex=74 ifaceName=v4-ccmni1
+      ifaceIndex=143 ifaceName=v4-ccmni1
+      ifaceIndex=124 ifaceName=v4-ccmni1
+      ifaceIndex=125 ifaceName=v4-ccmni0
+      ifaceIndex=144 ifaceName=v4-ccmni2
+      ifaceIndex=83 ifaceName=v4-ccmni1
+      ifaceIndex=42 ifaceName=v4-ccmni1
+
+BPF map status:
+  mCookieTagMap: OK
+  mUidCounterSetMap: OK
+  mAppUidStatsMap: OK
+  mStatsMapA: OK
+  mStatsMapB: OK
+  mIfaceStatsMap: OK
+
+BPF map content:
+  mCookieTagMap:
+    cookie=4029809 tag=0xd83ddc19 uid=10431
+    cookie=3878838 tag=0x2100 uid=10208
+    cookie=3264090 tag=0x105 uid=10292
+    cookie=3881948 tag=0x4001803 uid=10145
+    cookie=4022189 tag=0xe1d8ac0f uid=10145
+    cookie=4022173 tag=0x4be64f9b uid=10145
+    cookie=722710 tag=0x4001804 uid=10157
+    cookie=3878583 tag=0x4be64f9b uid=10145
+    cookie=3160178 tag=0x498f391c uid=10302
+    cookie=590104 tag=0x8001 uid=10212
+    cookie=4029671 tag=0x8003 uid=10302
+    cookie=4029520 tag=0x5065fff uid=10140
+    cookie=3878939 tag=0xd83ddc19 uid=10431
+    cookie=717567 tag=0x1 uid=10296
+    cookie=3880411 tag=0x4002700 uid=10140
+    cookie=1170269 tag=0x4be64f9b uid=10145
+    cookie=4029875 tag=0x498f391c uid=10302
+    cookie=3160156 tag=0x5c9730cd uid=10302
+    cookie=3879910 tag=0x4003300 uid=10292
+    cookie=4022180 tag=0x4be64f9b uid=10145
+    cookie=726328 tag=0xffffff81 uid=1073
+    cookie=3881798 tag=0xffffff81 uid=1073
+    cookie=3866812 tag=0x407 uid=10140
+    cookie=723317 tag=0x4001804 uid=10157
+    cookie=4029874 tag=0x5c9730cd uid=10302
+    cookie=4001908 tag=0x0 uid=1029
+    cookie=3881324 tag=0xffffff81 uid=1073
+    cookie=718501 tag=0x407 uid=10140
+    cookie=3881952 tag=0x4001803 uid=10145
+    cookie=3867175 tag=0x4001803 uid=10140
+    cookie=3264087 tag=0x105 uid=10292
+    cookie=4029456 tag=0x407 uid=10140
+    cookie=4029510 tag=0x4000407 uid=10140
+    cookie=4029457 tag=0x407 uid=10140
+    cookie=3879081 tag=0x8001 uid=10212
+    cookie=3878310 tag=0x4000401 uid=10225
+  mUidCounterSetMap:
+    uid=10144 set=1
+    uid=10355 set=1
+    uid=10185 set=1
+    uid=10191 set=1
+    uid=10431 set=1
+    uid=10123 set=1
+    uid=10292 set=1
+    uid=10146 set=1
+    uid=10083 set=1
+    uid=10216 set=1
+    uid=1068 set=1
+    uid=1002 set=1
+    uid=1000 set=1
+    uid=10110 set=1
+    uid=10140 set=1
+    uid=10187 set=1
+    uid=10174 set=1
+    uid=1001 set=1
+    uid=1027 set=1
+    uid=10217 set=1
+    uid=10120 set=1
+    uid=10208 set=1
+    uid=1073 set=1
+  mAppUidStatsMap:
+    uid rxBytes rxPackets txBytes txPackets
+    10197 755918 1692 622051 1647
+    10292 30796937 61426 13152109 57655
+    10337 1264535 2983 779570 2639
+    10154 771892 1408 249230 1541
+    10299 5921010 13239 2557925 11371
+    10286 517904724 444497 36590938 171476
+    10254 3153748 5808 1805457 5226
+    10153 23394 59 6249 48
+    10284 130293119 100491 3085107 21544
+    10235 49008 103 17731 120
+    10264 759380 1938 548318 1736
+    10415 3513276 6535 2020455 6665
+    10210 588913568 552828 237646156 263059
+    10155 14790325 12389 1068709 8376
+    10161 204552892 228297 37966489 117091
+    10245 940090 1628 352874 1475
+    10404 5282022 9131 4535139 9587
+    10322 18319484 16953 1547382 9279
+    1073 1924092 8117 1530131 12439
+    10278 5844623 7985 1693621 6636
+    10293 188233877 141260 3606340 37018
+    10376 177250651 136242 4180577 25925
+    10223 900587 2077 737447 2148
+    10373 125373 257 94570 238
+    10200 16812 33 12580 33
+    10247 3211432 5627 922992 4381
+    10426 7106602 8501 1121574 5534
+    10387 2765641 3864 885461 2845
+    10356 732825 1260 327485 1232
+    10332 10763 19 4520 22
+    10420 236720007 182889 6539929 38952
+    10329 7316641 8200 920650 4768
+    10013 39626 82 28470 75
+    10157 11978020636 9496928 464565411 2395608
+    10287 11427937 15326 4166785 12244
+    10269 25197 81 67795 86
+    10390 2160330 3803 1783182 3442
+    10160 9989723 7905 482872 2448
+    10297 25365106 24432 2788507 19153
+    10367 2489803 1874 75400 1017
+    10175 642743 1005 309247 1007
+    10325 794301020 1241458 278251126 622310
+    10263 485415 1142 353620 1015
+    10372 16445 38 7492 42
+    10225 2716008 5128 1906847 5167
+    10186 32873 79 24444 71
+    10246 574175 1508 240354 1534
+    10428 1192726255 911125 20230620 225589
+    10209 403236 1088 290554 994
+    10403 35603549 31371 2311291 11071
+    10185 2053547 3827 978719 3827
+    10248 261525 533 173455 479
+    10429 3073619 7688 1247172 7626
+    10364 861354 768 78668 569
+    10198 11728840 12700 2817220 7371
+    10300 242377 495 93257 497
+    10149 1308691 2188 345585 1878
+    10238 47278 67 8777 62
+    10145 3755666192 3012100 68869586 436662
+    10328 15096176 15266 1893983 10038
+    10310 40956 92 16719 88
+    10303 6650448 10877 3603896 9952
+    10091 4647095 3543 132313 902
+    10301 16169562 27167 3853250 24907
+    10289 157757458 119594 3660255 33599
+    10055 4332755 10349 2353814 11411
+    10391 44871492 35140 2041441 8602
+    10393 282113 559 99642 563
+    10378 19511347 18326 1293347 12261
+    10261 15279789 29700 8043803 25420
+    10411 3924414485 3511985 215369509 821855
+    1000 214947130 232258 12779796 100572
+    10296 218079012 511533 544557015 582656
+    10140 119333143 253684 341490272 382455
+    10277 52333 135 34156 105
+    10156 6905841706 5781749 253946591 890350
+    10288 225693 526 158285 471
+    10134 530183 1400 1384839 1857
+    10032 1255890708 892590 80133912 175257
+    10266 2376892 4527 901321 4587
+    10011 4425023538 3274623 62903314 473227
+    10146 41642685 75721 30607727 68067
+    10163 16486293 13010 233924 3094
+    1020 53680 340 15088 100
+    10302 9687573 11024 1128604 8138
+    1021 769325 1056 131982 1008
+    10164 1723480 3030 757241 3063
+    10165 115137636 152509 34111789 103758
+    10268 554687 1359 412735 1176
+    10320 287824 714 199558 621
+    10208 30491961 51590 22787587 45458
+    10409 281247 442 103149 463
+    10360 499897 1073 341400 1145
+    10410 429726697 2258873 205615943 2016397
+    10017 695235 751 89879 590
+    10362 1305223 1720 216172 1171
+    10227 80706794 75812 11163861 27006
+    10431 32859102 59489 48659564 78008
+    10308 46989 112 40239 90
+    -253 429630 3903 7061638 5834
+    10244 1074544 1936 464713 1545
+    10417 34768 64 20093 57
+    10339 39851413 33918 1970057 20196
+    10276 62567 133 31133 131
+    10191 2429984 4093 898390 4667
+    10194 62512332 44618 686537 10493
+    1052 857507 7549 873666 7492
+    10334 6521273 10473 3414066 8502
+    10430 7743722 6201 264999 1702
+    10316 6275523 15325 5704741 17990
+    10204 2478109 4054 676730 4440
+    10081 488 2 210 2
+    10211 524049 948 178645 922
+    10174 82242 180 30543 198
+    10212 20052575 30276 7167327 26596
+    10196 69020188 92458 21811601 68880
+    10282 920260 1832 353330 1513
+    10398 4720245 8920 1325799 8748
+    10205 67819 153 29737 168
+    10015 2181269 4003 928610 3717
+    10401 577254 1369 379212 1141
+    0 11340 84 35467892 96314
+    1001 301492 523 236164 526
+    10018 1046498 881 57199 463
+    10226 2640529 5162 1212301 4713
+  mStatsMapA:
+    ifaceIndex ifaceName tag_hex uid_int cnt_set rxBytes rxPackets txBytes txPackets
+  mStatsMapB:
+    ifaceIndex ifaceName tag_hex uid_int cnt_set rxBytes rxPackets txBytes txPackets
+    3 ccmni1 0x0 10411 0 0 0 96 1
+  mIfaceStatsMap:
+    ifaceIndex ifaceName rxBytes rxPackets txBytes txPackets
+    60 v4-ccmni0 10275 65 7169 103
+    176 v4-ccmni2 1980 33 8776 108
+    25 ifb0 3824 28 22264 317
+    148 v4-ccmni2 963424 2692 825346 4787
+    116 ap0 1220 11 3527 33
+    135 v4-ccmni1 277 2 3436 27
+    163 v4-ccmni2 52085 401 98041 860
+    58 v4-ccmni0 38158 268 53471 482
+    167 v4-ccmni1 0 0 1972 32
+    40 v4-ccmni0 1957116 1858 99737 1444
+    122 ap0 172 2 344 4
+    104 v4-ccmni0 105152 473 127911 1139
+    189 v4-ccmni2 1450198 3147 622393 4105
+    3 ccmni1 18498049011 17136191 1306196537 5206690
+    52 v4-ccmni0 360 6 6176 29
+    23 ccmni-lan 0 0 2304 24
+    1 lo 401030 7491 401630 7501
+    145 v4-ccmni1 1099530 4681 892913 6158
+    186 v4-ccmni1 80943 265 58914 255
+    175 v4-ccmni1 84810 599 388800 711
+    45 wlan1 0 0 2304 24
+    157 v4-ccmni2 1412923 3032 785916 3206
+    141 v4-ccmni1 12156913 29970 1733353 16624
+    44 wlan0 1194509857 1255412 812186554 834139
+    142 v4-ccmni2 146840 270 77285 277
+    174 v4-ccmni2 266122 1816 399088 1891
+    128 v4-ccmni1 250578 1057 410714 1799
+    173 ap0 4402577 18677 58512284 73463
+    64 v4-ccmni1 1260205 2300 411748 3000
+    194 v4-ccmni1 67714 427 111900 761
+    179 ap0 347716 2092 113127 792
+    42 v4-ccmni1 6321506 6364 556258 6143
+    130 v4-ccmni1 167456 705 137925 1251
+    37 v4-ccmni2 95008 442 81701 948
+    53 v4-ccmni1 6000367 5116 290397 3859
+    95 v4-ccmni1 309226 842 145940 1554
+    126 v4-ccmni1 184505 529 99854 788
+    188 v4-ccmni1 25567 77 22537 162
+    24 dummy0 34300 429 682173 7559
+    110 v4-ccmni1 59028 190 39925 285
+    61 v4-ccmni2 11566 104 20442 216
+    183 v4-ccmni0 5019 32 7260 40
+    159 v4-ccmni2 1389230 1898 263351 1926
+    112 v4-ccmni2 1868521 9190 16969669 19446
+    39 v4-ccmni0 299677 371 48837 402
+    156 v4-ccmni0 2969795 8061 23921112 26092
+    168 v4-ccmni2 94315 906 191866 1863
+    69 v4-ccmni1 274026 769 120704 1003
+    177 v4-ccmni0 1505452 4009 1138050 5970
+    55 v4-ccmni0 349287 942 174137 1464
+    169 v4-ccmni1 325755 589 106385 545
+    150 v4-ccmni2 616356 1227 207190 1613
+    2 ccmni0 4261110212 3927763 246144992 1319966
+    132 v4-ccmni2 2084176 4211 1102137 6711
+    124 v4-ccmni1 1100609 1075 104427 1071
+    91 v4-ccmni1 2987727 3352 295896 3533
+    127 v4-ccmni2 806882 872 174429 1437
+    125 v4-ccmni0 2823 50 16806 262
+    74 v4-ccmni1 73979 402 83813 902
+    136 v4-ccmni2 3358475 6779 1363500 9665
+    118 ap0 16532379 18695 31423117 295556
+    164 v4-ccmni1 1162886 1662 349908 1770
+    75 v4-ccmni2 5628 15 4899 21
+    59 v4-ccmni0 108413 512 152392 945
+    26 ifb1 3824 28 22208 316
+    123 v4-ccmni1 186533 509 116680 921
+    149 v4-ccmni1 910603 734 41952 263
+    153 v4-ccmni1 17323824 15491 1271529 8492
+    76 v4-ccmni1 120 2 200 4
+    166 v4-ccmni2 830296 4228 818987 6791
+    78 v4-ccmni1 64147 449 79967 735
+    33 ifb2 3824 28 22208 316
+    187 v4-ccmni2 1391938 2664 775109 3955
+    158 v4-ccmni1 214118 697 210199 1414
+    162 v4-ccmni1 0 0 8780 65
+    41 v4-ccmni1 199144 367 104986 675
+    54 v4-ccmni1 0 0 1440 24
+    182 v4-ccmni2 360824 1395 231590 2140
+    43 v4-ccmni1 588212 1138 244397 1987
+    129 v4-ccmni2 663 5 2325 7
+    4 ccmni2 14691736735 12960452 827342499 3593239
+    56 v4-ccmni1 180 3 656 12
+    144 v4-ccmni2 191965 575 170541 976
+    101 v4-ccmni1 222418 1078 244332 2083
+    100 v4-ccmni2 11075 53 18869 215
+    83 v4-ccmni1 444472 706 128758 1246
+    171 v4-ccmni2 346667 2133 393145 3024
+    94 v4-ccmni2 2086863 2275 226862 2429
+    86 v4-ccmni2 513944 1767 368074 3284
+    36 v4-ccmni1 727998 2915 793246 6401
+    170 v4-ccmni1 11808156 20968 2731668 21842
+    34 v4-ccmni1 40295470 33188 1183126 10394
+    131 v4-ccmni1 27274 146 52406 455
+    111 v4-ccmni1 4355 61 21728 148
+    57 v4-ccmni0 920 16 4338 37
+    143 v4-ccmni1 2152514 5911 1133758 5967
+    35 v4-ccmni2 157688 891 296665 2428
+    38 v4-ccmni1 0 0 120 2
+    109 v4-ccmni1 112805 452 98117 687
+    165 rndis0 603783 3433 2867573 3660
+
+SkDestroyListener logs:
+
+NetworkStatsFactory logs:
+  Top distinct tag counts in UidTagSets:
+    10140=71
+    10261=26
+    10015=21
+    10145=21
+    10278=20
+    10208=18
+    10296=17
+    10410=12
+    10252=10
+    10292=9
+    10293=9
+    10210=7
+    10398=7
+    10212=6
+    10339=6
+    10390=6
+    1000=5
+    10011=5
+    10146=5
+    10161=5

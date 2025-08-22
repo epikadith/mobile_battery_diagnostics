@@ -1,0 +1,51 @@
+=== Battery Hardware Information === 
+Timestamp: 23-Aug-25  3:26:39.60 
+ 
+=== Available Power Supplies === 
+ac
+battery
+charger
+usb
+ 
+=== Cycle Count === 
+Cycle count not available
+ 
+=== capacity === 
+40
+ 
+=== voltage_now === 
+3890
+ 
+=== temp === 
+328
+ 
+=== health === 
+Good
+ 
+=== charge_full === 
+2964000
+ 
+=== charge_full_design === 
+2964000
+ 
+=== status === 
+Charging
+ 
+=== present === 
+1
+ 
+=== technology === 
+Li-ion
+ 
+=== Additional Battery Info === 
+--- charge_counter --- 
+1800000
+--- charge_now --- 
+4725
+--- current_now --- 
+-183
+--- power_now --- 
+Not available
+ 
+=== OnePlus Specific Battery Info === 
+ 

@@ -1,0 +1,280 @@
+AGGREGATED OVER LAST 1 HOURS:
+  * com.google.android.googlequicksearchbox:interactor / u0a146 / v301564842:
+         TOTAL: 100% (41MB-42MB-43MB/6.8MB-8.9MB-11MB/109MB-112MB-116MB over 2)
+       Bnd Fgs: 100% (41MB-42MB-43MB/6.8MB-8.9MB-11MB/109MB-112MB-116MB over 2)
+  * com.google.android.apps.messaging:rcs / u0a208 / v284592063:
+         TOTAL: 100% (45MB-47MB-48MB/1.6MB-4.5MB-7.5MB/46MB-51MB-56MB over 2)
+       Bnd Fgs: 100% (45MB-47MB-48MB/1.6MB-4.5MB-7.5MB/46MB-51MB-56MB over 2)
+  * se.dirac.acs / u0a187 / v619000:
+         TOTAL: 100% (13MB-15MB-17MB/3.9MB-5.0MB-6.1MB/42MB-45MB-47MB over 2)
+    Persistent: 100% (13MB-15MB-17MB/3.9MB-5.0MB-6.1MB/42MB-45MB-47MB over 2)
+  * com.ses.entitlement.o2 / 1001 / v33:
+         TOTAL: 100% (7.8MB-7.8MB-7.8MB/476KB-518KB-560KB/34MB-34MB-34MB over 2)
+    Persistent: 100% (7.8MB-7.8MB-7.8MB/476KB-518KB-560KB/34MB-34MB-34MB over 2)
+  * com.oplus.deepthinker / u0a110 / v20000:
+         TOTAL: 100% (52MB-53MB-54MB/17MB-19MB-20MB/61MB-62MB-64MB over 2)
+       Bnd Fgs: 91% (54MB-54MB-54MB/20MB-20MB-20MB/64MB-64MB-64MB over 1)
+        Imp Fg: 8.7% (52MB-52MB-52MB/17MB-17MB-17MB/61MB-61MB-61MB over 1)
+  * com.android.systemui / u0a120 / v130021:
+         TOTAL: 100% (299MB-307MB-315MB/172MB-174MB-176MB/288MB-289MB-290MB over 2)
+    Persistent: 8.7% (315MB-315MB-315MB/176MB-176MB-176MB/290MB-290MB-290MB over 1)
+       Bnd Fgs: 91% (299MB-299MB-299MB/172MB-172MB-172MB/288MB-288MB-288MB over 1)
+  * com.mediatek.rcs.provisioning / u0a123 / v5:
+         TOTAL: 100% (7.8MB-7.8MB-7.8MB/396KB-464KB-532KB/33MB-33MB-33MB over 2)
+    Persistent: 100% (7.8MB-7.8MB-7.8MB/396KB-464KB-532KB/33MB-33MB-33MB over 2)
+  * com.oneplus.deskclock / u0a172 / v14010006:
+         TOTAL: 100% (60MB-62MB-64MB/13MB-17MB-21MB/77MB-83MB-90MB over 2)
+       Service: 100% (60MB-62MB-64MB/13MB-17MB-21MB/77MB-83MB-90MB over 2)
+  * com.oplus.persist.multimedia / 1000 / v1:
+         TOTAL: 100% (25MB-26MB-26MB/6.0MB-6.4MB-6.9MB/48MB-49MB-49MB over 2)
+    Persistent: 100% (25MB-26MB-26MB/6.0MB-6.4MB-6.9MB/48MB-49MB-49MB over 2)
+  * com.android.networkstack.process / 1073 / v360738140:
+         TOTAL: 100% (17MB-18MB-20MB/5.5MB-7.1MB-8.7MB/53MB-54MB-56MB over 2)
+    Persistent: 100% (17MB-18MB-20MB/5.5MB-7.1MB-8.7MB/53MB-54MB-56MB over 2)
+  * com.google.android.adservices.api / u0a191 / v36:
+         TOTAL: 100% (24MB-24MB-24MB/1.9MB-1.9MB-2.0MB/48MB-48MB-48MB over 2)
+       Bnd Fgs: 100% (24MB-24MB-24MB/1.9MB-1.9MB-2.0MB/48MB-48MB-48MB over 2)
+        Imp Fg: 0.20%
+  * com.spotify.music / u0a11 / v121900376:
+         TOTAL: 100% (301MB-301MB-301MB/15MB-16MB-16MB/90MB-91MB-91MB over 2)
+       Service: 100% (301MB-301MB-301MB/15MB-16MB-16MB/90MB-91MB-91MB over 2)
+  * com.coloros.assistantscreen / u0a174 / v14070120:
+         TOTAL: 100% (57MB-57MB-58MB/5.4MB-6.4MB-7.3MB/58MB-59MB-60MB over 2)
+       Bnd Fgs: 100% (57MB-57MB-58MB/5.4MB-6.4MB-7.3MB/58MB-59MB-60MB over 2)
+        Imp Fg: 0.20%
+  * com.microsoft.appmanager:pnsvc / u0a431 / v7020668:
+         TOTAL: 100% (34MB-34MB-35MB/6.4MB-7.3MB-8.3MB/64MB-64MB-64MB over 2)
+       Bnd Fgs: 100% (34MB-34MB-35MB/6.4MB-7.3MB-8.3MB/64MB-64MB-64MB over 2)
+  * com.oplus.battery / 1000 / v20:
+         TOTAL: 100% (29MB-30MB-31MB/15MB-16MB-17MB/70MB-71MB-72MB over 2)
+        Imp Fg: 100% (29MB-30MB-31MB/15MB-16MB-17MB/70MB-71MB-72MB over 2)
+  * com.android.nfc / 1027 / v130001111:
+         TOTAL: 100% (17MB-17MB-17MB/3.3MB-3.4MB-3.5MB/45MB-45MB-45MB over 2)
+    Persistent: 100% (17MB-17MB-17MB/3.3MB-3.4MB-3.5MB/45MB-45MB-45MB over 2)
+  * com.oplus.gesture / u0a129 / v8300:
+         TOTAL: 100% (11MB-11MB-12MB/1.6MB-1.8MB-2.0MB/41MB-41MB-41MB over 2)
+        Imp Fg: 100% (11MB-11MB-12MB/1.6MB-1.8MB-2.0MB/41MB-41MB-41MB over 2)
+  * com.oplus.powermonitor / 1000 / v13000103:
+         TOTAL: 100% (8.3MB-8.4MB-8.5MB/1.8MB-2.0MB-2.2MB/46MB-46MB-47MB over 2)
+       Service: 100% (8.3MB-8.4MB-8.5MB/1.8MB-2.0MB-2.2MB/46MB-46MB-47MB over 2)
+  * com.heytap.mcs / 1000 / v51204:
+         TOTAL: 100% (30MB-31MB-32MB/8.9MB-11MB-13MB/58MB-60MB-62MB over 2)
+        Imp Fg: 100% (30MB-31MB-32MB/8.9MB-11MB-13MB/58MB-60MB-62MB over 2)
+  * com.oplus.appplatform / 1000 / v130016:
+         TOTAL: 100% (19MB-19MB-20MB/8.0MB-8.2MB-8.4MB/70MB-70MB-71MB over 2)
+       Bnd Fgs: 100% (19MB-19MB-20MB/8.0MB-8.2MB-8.4MB/70MB-70MB-71MB over 2)
+  * com.oplus.stdid / 1000 / v20104:
+         TOTAL: 100% (6.8MB-6.8MB-6.8MB/492KB-526KB-560KB/41MB-42MB-42MB over 2)
+       Service: 100% (6.8MB-6.8MB-6.8MB/492KB-526KB-560KB/41MB-42MB-42MB over 2)
+  * com.google.android.apps.wellbeing / u0a144 / v655427:
+         TOTAL: 100% (22MB-22MB-22MB/760KB-844KB-0.91MB/44MB-44MB-44MB over 2)
+       Bnd Fgs: 100% (22MB-22MB-22MB/760KB-844KB-0.91MB/44MB-44MB-44MB over 2)
+  * system / 1000 / v33:
+         TOTAL: 100% (437MB-437MB-437MB/351MB-351MB-352MB/551MB-552MB-553MB over 2)
+    Persistent: 100% (437MB-437MB-437MB/351MB-351MB-352MB/551MB-552MB-553MB over 2)
+  * com.android.bluetooth / 1002 / v33:
+         TOTAL: 100% (29MB-29MB-30MB/6.0MB-6.3MB-6.6MB/54MB-55MB-55MB over 2)
+    Persistent: 100% (29MB-29MB-30MB/6.0MB-6.3MB-6.6MB/54MB-55MB-55MB over 2)
+  * com.google.android.googlequicksearchbox:googleapp / u0a146 / v301564842:
+         TOTAL: 100% (93MB-100MB-107MB/47MB-53MB-60MB/138MB-149MB-160MB over 2)
+       Bnd Fgs: 100% (93MB-100MB-107MB/47MB-53MB-60MB/138MB-149MB-160MB over 2)
+        Imp Fg: 0.20%
+  * com.oplus.securitypermission / 1000 / v40:
+         TOTAL: 100% (13MB-13MB-14MB/0.97MB-1.1MB-1.2MB/41MB-41MB-42MB over 2)
+       Bnd Fgs: 100% (13MB-13MB-14MB/0.97MB-1.1MB-1.2MB/41MB-41MB-42MB over 2)
+  * com.oplus.cosa / u0a185 / v13000105:
+         TOTAL: 100% (37MB-37MB-37MB/7.2MB-7.5MB-7.7MB/58MB-58MB-58MB over 2)
+    Persistent: 100% (37MB-37MB-37MB/7.2MB-7.5MB-7.7MB/58MB-58MB-58MB over 2)
+  * com.google.android.as / u0a83 / v8997577:
+         TOTAL: 100% (32MB-35MB-37MB/19MB-22MB-24MB/71MB-74MB-76MB over 2)
+       Bnd Fgs: 100% (32MB-35MB-37MB/19MB-22MB-24MB/71MB-74MB-76MB over 2)
+  * com.oplus.olc / 1000 / v130020017:
+         TOTAL: 100% (11MB-11MB-12MB/560KB-1.7MB-2.8MB/38MB-40MB-42MB over 2)
+    Persistent: 100% (11MB-11MB-12MB/560KB-1.7MB-2.8MB/38MB-40MB-42MB over 2)
+  * com.instagram.android:mqtt / u0a411 / v378906865:
+         TOTAL: 100% (46MB-47MB-47MB/27MB-27MB-27MB/82MB-82MB-83MB over 2)
+       Service: 100% (46MB-47MB-47MB/27MB-27MB-27MB/82MB-82MB-83MB over 2)
+  * com.oplus.multimedia.dirac / 1000 / v13001013:
+         TOTAL: 100% (8.0MB-8.3MB-8.6MB/3.4MB-3.8MB-4.1MB/44MB-44MB-45MB over 2)
+    Persistent: 100% (8.0MB-8.3MB-8.6MB/3.4MB-3.8MB-4.1MB/44MB-44MB-45MB over 2)
+  * com.oplus.crashbox / 1000 / v14001006:
+         TOTAL: 100% (12MB-12MB-12MB/592KB-664KB-736KB/47MB-47MB-47MB over 2)
+       Service: 100% (12MB-12MB-12MB/592KB-664KB-736KB/47MB-47MB-47MB over 2)
+  * com.google.android.inputmethod.latin / u0a155 / v171306542:
+         TOTAL: 100% (215MB-216MB-216MB/139MB-140MB-141MB/230MB-231MB-232MB over 2)
+        Imp Bg: 100% (215MB-216MB-216MB/139MB-140MB-141MB/230MB-231MB-232MB over 2)
+  * com.oplus.nhs / 1001 / v1303042:
+         TOTAL: 100% (17MB-17MB-18MB/8.9MB-9.7MB-10MB/57MB-58MB-59MB over 2)
+    Persistent: 100% (17MB-17MB-18MB/8.9MB-9.7MB-10MB/57MB-58MB-59MB over 2)
+  * android.process.media / u0a81 / v33:
+         TOTAL: 100% (12MB-12MB-12MB/0.90MB-1.0MB-1.1MB/45MB-45MB-45MB over 2)
+       Service: 100% (12MB-12MB-12MB/0.90MB-1.0MB-1.1MB/45MB-45MB-45MB over 2)
+  * com.google.android.providers.media.module / u0a216 / v36:
+         TOTAL: 100% (51MB-52MB-52MB/16MB-16MB-17MB/64MB-64MB-65MB over 2)
+    Persistent: 100% (51MB-52MB-52MB/16MB-16MB-17MB/64MB-64MB-65MB over 2)
+  * com.oplus.statistics.rom / u0a316 / v530807400:
+         TOTAL: 100% (27MB-27MB-27MB/15MB-15MB-16MB/67MB-68MB-68MB over 2)
+       Bnd Fgs: 1.2%
+        Imp Fg: 0.03%
+       Service: 99% (27MB-27MB-27MB/15MB-15MB-16MB/67MB-68MB-68MB over 2)
+  * com.oplus.notificationmanager / 1000 / v13001000:
+         TOTAL: 100% (21MB-21MB-21MB/2.8MB-3.0MB-3.1MB/45MB-45MB-45MB over 2)
+       Bnd Fgs: 100% (21MB-21MB-21MB/2.8MB-3.0MB-3.1MB/45MB-45MB-45MB over 2)
+  * com.heytap.accessory / u0a169 / v21726:
+         TOTAL: 100% (17MB-17MB-17MB/2.8MB-3.1MB-3.4MB/45MB-45MB-46MB over 2)
+        Imp Fg: 100% (17MB-17MB-17MB/2.8MB-3.1MB-3.4MB/45MB-45MB-46MB over 2)
+  * com.oplus.exsystemservice / 1000 / v10019:
+         TOTAL: 100% (19MB-19MB-19MB/5.6MB-5.7MB-5.9MB/54MB-54MB-54MB over 2)
+    Persistent: 100% (19MB-19MB-19MB/5.6MB-5.7MB-5.9MB/54MB-54MB-54MB over 2)
+  * com.oplus.onet / u0a318 / v2000026:
+         TOTAL: 100% (12MB-12MB-12MB/1.1MB-1.2MB-1.2MB/39MB-39MB-39MB over 2)
+        Imp Fg: 100% (12MB-12MB-12MB/1.1MB-1.2MB-1.2MB/39MB-39MB-39MB over 2)
+  * com.oplus.subsys / 1000 / v33:
+         TOTAL: 100% (16MB-17MB-19MB/9.9MB-11MB-13MB/55MB-56MB-58MB over 2)
+    Persistent: 100% (16MB-17MB-19MB/9.9MB-11MB-13MB/55MB-56MB-58MB over 2)
+  * com.android.launcher / u0a355 / v13000049:
+         TOTAL: 100% (169MB-170MB-170MB/101MB-101MB-101MB/197MB-197MB-197MB over 2)
+       Bnd Fgs: 100% (169MB-170MB-170MB/101MB-101MB-101MB/197MB-197MB-197MB over 2)
+        Imp Fg: 0.20%
+  * com.mediatek.presence / 1001 / v3:
+         TOTAL: 100% (7.8MB-7.9MB-7.9MB/480KB-512KB-544KB/33MB-33MB-33MB over 2)
+    Persistent: 100% (7.8MB-7.9MB-7.9MB/480KB-512KB-544KB/33MB-33MB-33MB over 2)
+  * com.google.android.gms.persistent / u0a140 / v253133029:
+         TOTAL: 100% (76MB-76MB-76MB/51MB-52MB-52MB/156MB-156MB-156MB over 2)
+       Bnd Fgs: 100% (76MB-76MB-76MB/51MB-52MB-52MB/156MB-156MB-156MB over 2)
+  * com.oplus.exsystemservice:untrustedproc / 1000 / v10019:
+         TOTAL: 100% (11MB-11MB-11MB/448KB-480KB-512KB/38MB-38MB-39MB over 2)
+       Service: 100% (11MB-11MB-11MB/448KB-480KB-512KB/38MB-38MB-39MB over 2)
+  * com.android.se / 1068 / v13000002:
+         TOTAL: 100% (7.8MB-7.8MB-7.8MB/592KB-630KB-668KB/33MB-33MB-33MB over 2)
+    Persistent: 100% (7.8MB-7.8MB-7.8MB/592KB-630KB-668KB/33MB-33MB-33MB over 2)
+  * com.google.android.ext.services / u0a217 / v360737100:
+         TOTAL: 100% (23MB-23MB-23MB/4.4MB-4.6MB-4.8MB/55MB-56MB-56MB over 2)
+       Bnd Fgs: 100% (23MB-23MB-23MB/4.4MB-4.6MB-4.8MB/55MB-56MB-56MB over 2)
+  * com.android.phone / 1001 / v13015085:
+         TOTAL: 100% (71MB-75MB-78MB/37MB-40MB-44MB/113MB-118MB-122MB over 2)
+    Persistent: 100% (71MB-75MB-78MB/37MB-40MB-44MB/113MB-118MB-122MB over 2)
+  * com.oplus.midas / 1000 / v13000003:
+         TOTAL: 100% (11MB-12MB-13MB/6.6MB-7.4MB-8.3MB/60MB-61MB-62MB over 2)
+       Service: 100% (11MB-12MB-13MB/6.6MB-7.4MB-8.3MB/60MB-61MB-62MB over 2)
+  * com.truecaller / u0a292 / v1517006:
+         TOTAL: 100% (87MB-87MB-87MB/37MB-37MB-37MB/106MB-106MB-106MB over 2)
+       Bnd Fgs: 100% (87MB-87MB-87MB/37MB-37MB-37MB/106MB-106MB-106MB over 2)
+  * com.oplus.athena / 1000 / v161:
+         TOTAL: 100% (24MB-25MB-25MB/15MB-15MB-15MB/81MB-81MB-82MB over 2)
+    Persistent: 100% (24MB-25MB-25MB/15MB-15MB-15MB/81MB-81MB-82MB over 2)
+  * com.google.android.webview:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 / u0a11 / v725809533:
+         TOTAL: 100% (5.7MB-5.7MB-5.7MB/556KB-580KB-604KB/38MB-38MB-38MB over 2)
+       Service: 100% (5.7MB-5.7MB-5.7MB/556KB-580KB-604KB/38MB-38MB-38MB over 2)
+  * com.mediatek.ims / 1001 / v33:
+         TOTAL: 100% (15MB-15MB-15MB/2.1MB-2.2MB-2.4MB/44MB-44MB-45MB over 2)
+    Persistent: 100% (15MB-15MB-15MB/2.1MB-2.2MB-2.4MB/44MB-44MB-45MB over 2)
+  * com.instagram.android / u0a411 / v378906865:
+         TOTAL: 100% (672MB-716MB-760MB/568MB-612MB-655MB/682MB-725MB-768MB over 2)
+           Top: 8.5% (760MB-760MB-760MB/655MB-655MB-655MB/768MB-768MB-768MB over 1)
+       Service: 91% (672MB-672MB-672MB/568MB-568MB-568MB/682MB-682MB-682MB over 1)
+  * com.google.android.cellbroadcastreceiver / u0a215 / v300000000:
+         TOTAL: 54% (8.3MB-8.3MB-8.3MB/3.8MB-3.8MB-3.8MB/49MB-49MB-49MB over 1)
+      Receiver: 54% (8.3MB-8.3MB-8.3MB/3.8MB-3.8MB-3.8MB/49MB-49MB-49MB over 1)
+  * com.oplus.onetrace / 1000 / v237:
+         TOTAL: 54% (20MB-20MB-20MB/17MB-17MB-17MB/96MB-96MB-96MB over 2)
+       Service: 54% (20MB-20MB-20MB/17MB-17MB-17MB/96MB-96MB-96MB over 2)
+  * com.heytap.mcs.biz.message / 1000 / v51204:
+         TOTAL: 32% (18MB-18MB-18MB/16MB-16MB-16MB/81MB-81MB-81MB over 1)
+        Imp Fg: 32% (18MB-18MB-18MB/16MB-16MB-16MB/81MB-81MB-81MB over 1)
+  * com.google.android.googlequicksearchbox:search / u0a146 / v301564842:
+         TOTAL: 6.3%
+       Bnd Fgs: 6.3%
+        Imp Bg: 0.01%
+  * com.google.android.gms / u0a140 / v253133029:
+         TOTAL: 1.2%
+       Service: 1.2%
+  * com.heytap.mcs.appservice / 1000 / v51204:
+         TOTAL: 1.00%
+        Imp Fg: 0.97%
+       Service: 0.01%
+    Service Rs: 0.01%
+  * com.heytap.mcs.statistics / 1000 / v51204:
+         TOTAL: 0.50%
+        Imp Fg: 0.50%
+  * com.linkedin.android / u0a196 / v198600:
+         TOTAL: 0.06%
+        Imp Bg: 0.06%
+  * com.google.android.apps.messaging / u0a208 / v284592063:
+         TOTAL: 0.05%
+        Imp Bg: 0.05%
+  * com.oplus.eyeprotect / u0a127 / v3:
+         TOTAL: 0.02%
+       Service: 0.02%
+  * com.oplus.linker:app / u0a330 / v4000031:
+         TOTAL: 0.01%
+       Service: 0.01%
+  * org.wikipedia / u0a297 / v50541:
+  * com.android.vending / u0a145 / v84751930:
+  * com.google.android.youtube / u0a156 / v1555441088:
+  * com.android.chrome:privileged_process0 / u0a157 / v715111533:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:93 / u0a157 / v715111533:
+  * com.android.chrome / u0a157 / v715111533:
+  * com.google.android.gms.unstable / u0a140 / v253133029:
+  * com.snapchat.android / u0a286 / v225122:
+  * com.google.android.apps.tasks / u0a337 / v1899541:
+  * com.google.android.apps.youtube.music / u0a227 / v83051240:
+  * com.whatsapp / u0a296 / v252082000:
+  * com.oneplus.deskclock:clockWidget / u0a172 / v14010006:
+  * com.oplus.screenrecorder / u0a336 / v13002008:
+  * com.google.android.permissioncontroller / u0a219 / v360743220:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:92 / u0a157 / v715111533:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:89 / u0a157 / v715111533:
+  * com.oneplus.gallery / u0a211 / v150550060:
+  * com.jio.myjio / u0a301 / v7099:
+  * com.android.vending:background / u0a145 / v84751930:
+  * com.google.process.gservices / u0a140 / v33:
+  * com.google.android.apps.meetings / u0a325 / v2823825:
+  * com.google.android.gm / u0a165 / v65247976:
+  * com.google.android.partnersetup / u0a143 / v1450:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:0 / u0a157 / v715111533:
+  * com.google.process.gapps / u0a140 / v33:
+  * com.oplus.romupdate / u0a175 / v30911:
+  * com.android.settings / 1000 / v13000005:
+  * com.google.android.apps.photos / u0a210 / v50548066:
+  * android.process.acore / u0a73 / v13001055:
+  * com.android.chrome:sandboxed_process0:org.chromium.content.app.SandboxedProcessService0:91 / u0a157 / v715111533:
+  * com.coloros.assistantscreen:umsPlugin / u0a174 / v14070120:
+  * com.google.android.tts / u0a163 / v210476581:
+  * com.microsoft.appmanager:auth / u0a431 / v7020668:
+  * com.oneplus.opwlb / u0a206 / v13000005:
+  * com.techmash.playo / u0a426 / v395:
+  * com.snapwork.hdfc / u0a302 / v308:
+  * com.shazam.android / u0a284 / v1600300:
+  * com.oneplus.account / u0a177 / v82813:
+  * com.microsoft.appmanager / u0a431 / v7020668:
+  * com.microsoft.office.onenote / u0a299 / v1806558155:
+  * com.google.android.apps.paidtasks / u0a334 / v2019235992:
+
+Run time Stats:
+  SOff/Norm: +15m52s680ms
+   SOn/Norm: +1m28s959ms
+      TOTAL: +17m21s639ms
+
+Memory usage:
+  Kernel : 829MB (16 samples)
+  Native : 711MB (16 samples)
+  Persist: 883MB (43 samples)
+  Top: 65MB (1 samples)
+  BFgs: 1.1GB (36 samples)
+  ImpFg: 113MB (33 samples)
+  ImpBg: 216MB (12 samples)
+  Service: 1.1GB (59 samples)
+  Receivr: 4.5MB (51 samples)
+  Cached: 2.4GB (112 samples)
+  Cached : 1.4GB (16 samples)
+  Free   : 235MB (16 samples)
+  Z-Ram  : 621MB (16 samples)
+  TOTAL  : 9.6GB
+
+PSS collection stats:
+  Internal Single: 17x over +282ms
+  Internal All Procs (Memory Change): 0x over 0
+  Internal All Procs (Polling): 102x over +1s110ms
+  External: 0x over 0
+  External Slow: 93x over +2s837ms

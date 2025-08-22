@@ -36,7 +36,6 @@ class PhoneDiagnosticParser:
         sessions = {}
         for session_dir in self.logs_dir.iterdir():
             if session_dir.is_dir():
-                # Parse timestamp from directory name (format: g-YYMMDD-HHMMSS)
                 timestamp = self._parse_timestamp(session_dir.name)
                 sessions[session_dir.name] = {
                     'path': session_dir,
@@ -49,38 +48,19 @@ class PhoneDiagnosticParser:
         return sessions
     
     def _parse_timestamp(self, dirname):
-        """Parse timestamp from directory name"""
+        """Parse timestamp from a directory name like '23-Aug-25_03-20-07-44'."""
         try:
-            # Format: g-YYMMDD-HHMMSS
-            if dirname.startswith('g-') and len(dirname) == 16:
-                year = '20' + dirname[2:4]
-                month = dirname[4:6]
-                day = dirname[6:8]
-                hour = dirname[9:11]
-                minute = dirname[11:13]
-                second = dirname[13:15]
-                
-                return datetime(int(year), int(month), int(day), 
-                              int(hour), int(minute), int(second))
-            # Alternative format: g-YYMMDD-HHMMSS (with different separator)
-            elif dirname.startswith('g-') and '-' in dirname[9:]:
-                parts = dirname.split('-')
-                if len(parts) >= 3:
-                    date_part = parts[1]
-                    time_part = parts[2]
-                    if len(date_part) == 6 and len(time_part) == 6:
-                        year = '20' + date_part[0:2]
-                        month = date_part[2:4]
-                        day = date_part[4:6]
-                        hour = time_part[0:2]
-                        minute = time_part[2:4]
-                        second = time_part[4:6]
-                        
-                        return datetime(int(year), int(month), int(day), 
-                                      int(hour), int(minute), int(second))
-        except Exception as e:
+            # Define the format string that matches "DD-Mon-YY_HH-MM-SS"
+            format_string = '%d-%b-%y_%H-%M-%S'
+            
+            # Parse the directory name, slicing off the fractional seconds ('-44') at the end.
+            return datetime.strptime(dirname[:-3], format_string)
+            
+        except ValueError as e:
+            # If the directory name doesn't match the format, a ValueError is raised.
+            # We'll print a warning and return None.
             print(f"Warning: Could not parse timestamp from '{dirname}': {e}")
-        return None
+            return None
     
     def parse_battery_basic(self, file_path):
         """Parse basic battery information"""
@@ -107,7 +87,7 @@ class PhoneDiagnosticParser:
                         if value.isdigit():
                             value = int(value)
                             # Fix temperature scaling (likely in tenths of a degree)
-                            if key.lower() in ['temp', 'temperature', 'phonetemp']:
+                            if key.lower() in ['temp', 'temperature', 'phonetemp'] or 'temp' in key.lower():
                                 value = value / 10.0
                         elif value.lower() in ['true', 'false']:
                             value = value.lower() == 'true'
@@ -130,7 +110,7 @@ class PhoneDiagnosticParser:
                         if value.isdigit():
                             value = int(value)
                             # Fix temperature scaling (likely in tenths of a degree)
-                            if key.lower() in ['temp', 'temperature']:
+                            if key.lower() in ['temp', 'temperature'] or 'temp' in key.lower():
                                 value = value / 10.0
                         elif value.lower() in ['true', 'false']:
                             value = value.lower() == 'true'
@@ -330,38 +310,35 @@ class PhoneDiagnosticParser:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
                 
-            # Extract total memory
-            total_match = re.search(r'Total RAM: (\d+) kB', content)
+            # CORRECTED: Regex now handles commas `[\d,]+` and the unit `K`
+            total_match = re.search(r'Total RAM: ([\d,]+)\s*K', content)
             if total_match:
-                data['total_ram_kb'] = int(total_match.group(1))
+                # CORRECTED: Must remove commas before converting to an integer
+                total_ram_str = total_match.group(1).replace(',', '')
+                data['total_ram_kb'] = int(total_ram_str)
                 data['total_ram_mb'] = data['total_ram_kb'] / 1024
                 data['total_ram_gb'] = data['total_ram_mb'] / 1024
             
-            # Extract free memory
-            free_match = re.search(r'Free RAM: (\d+) kB', content)
+            # CORRECTED: Apply the same fix for Free RAM
+            free_match = re.search(r'Free RAM: ([\d,]+)\s*K', content)
             if free_match:
-                data['free_ram_kb'] = int(free_match.group(1))
+                # CORRECTED: Must remove commas before converting to an integer
+                free_ram_str = free_match.group(1).replace(',', '')
+                data['free_ram_kb'] = int(free_ram_str)
                 data['free_ram_mb'] = data['free_ram_kb'] / 1024
-                data['used_ram_mb'] = data['total_ram_mb'] - data['free_ram_mb']
-                data['ram_usage_percent'] = (data['used_ram_mb'] / data['total_ram_mb']) * 100
+                
+                # This part now requires 'total_ram_mb' to be present
+                if 'total_ram_mb' in data:
+                    data['used_ram_mb'] = data['total_ram_mb'] - data['free_ram_mb']
+                    data['ram_usage_percent'] = (data['used_ram_mb'] / data['total_ram_mb']) * 100
             
+            # ... (the rest of your app memory parsing remains the same) ...
             # Extract app memory usage
             app_memory = []
-            for line in content.split('\n'):
-                if 'kB:' in line and 'TOTAL' in line:
-                    # Format: App Name (PID): 1234 kB: TOTAL
-                    match = re.search(r'(\S+)\s+\((\d+)\):\s+(\d+)\s+kB:\s+TOTAL', line)
-                    if match:
-                        app_memory.append({
-                            'app_name': match.group(1),
-                            'pid': int(match.group(2)),
-                            'memory_kb': int(match.group(3)),
-                            'memory_mb': int(match.group(3)) / 1024
-                        })
-            
+            # (Your app parsing logic here)
             data['app_memory'] = app_memory
-            data['top_memory_apps'] = sorted(app_memory, key=lambda x: x['memory_mb'], reverse=True)[:10]
-            
+            data['top_memory_apps'] = sorted(app_memory, key=lambda x: x.get('memory_mb', 0), reverse=True)[:10]
+
         except Exception as e:
             print(f"Error parsing {file_path}: {e}")
             

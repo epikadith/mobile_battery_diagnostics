@@ -6,7 +6,9 @@ echo Starting battery diagnostics collection...
 echo Timestamp: %date% %time%
 
 REM Create timestamp for folder structure
-set timestamp=%date:~-4,4%%date:~-10,2%%date:~-7,2%_%time:~0,2%%time:~3,2%%time:~6,2%
+set timestamp=%date%_%time%
+set timestamp=%timestamp::=-%
+set timestamp=%timestamp:.=-%
 set timestamp=%timestamp: =0%
 
 REM Create output directory structure: logs\timestamp\
@@ -150,3 +152,4 @@ dir "%output_dir%\*.txt" /b
 echo.
 echo Press any key to exit...
 pause >nul
+

@@ -111,7 +111,7 @@ export_data(summary_df, parsed_data)
 
 ### Diagnostic Sessions
 
-Each diagnostic session is stored in a folder named `g-YYMMDD-HHMMSS` containing:
+Each diagnostic session is stored in a folder named `dd-MMM-yy_HH-MM-SS` containing:
 - `battery_basic.txt` - Basic battery information
 - `battery_stats.txt` - Detailed battery statistics
 - `battery_hardware.txt` - Hardware-level battery data
